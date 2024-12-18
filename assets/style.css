@@ -25,6 +25,10 @@ h6 {
     color: var(--primary-font-color)
 }
 
+body {
+    background-color: var(--tertiary-background-color);
+}
+
 p {
     font-family: var(--secondary-font);
     color: var(--primary-font-color);
@@ -35,10 +39,19 @@ p {
     background-color: var(--tertiary-background-color);
 }
 
+/* Header */ 
+header {
+    border-top: 15px solid white;
+    border-bottom: 15px solid white;
+    margin-bottom: 15px;
+}
+
 /* About Me Section */
 #about-text {
     background-color: #F6F7F9;
 }
+
+
 
 /* grid visualisations for testing */
 /*.container,
