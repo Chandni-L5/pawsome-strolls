@@ -37,12 +37,25 @@ p {
 /* Navbar Styling */
 .navbar {
     background-color: var(--tertiary-background-color);
+    margin-bottom: 15px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 2px var(--tertiary-background-color);
 }
 
-/* Header */ 
-header {
-    border: 20px solid var(--tertiary-background-color);
-    margin-bottom: 15px;
+nav {
+    font-family: var(--primary-font);
+}
+
+/* Header */
+.image-size {
+    width: 100%;
+    object-fit: contain;
+}
+
+#title {
+    margin: 20px 0px 20px 0px;
 }
 
 /* About Me Section */
@@ -50,10 +63,19 @@ header {
     background-color: #F6F7F9;
 }
 
+/* Media query: tablets and phones (786 and down) */
 
+/*Media query: lg and xl screens */
+nav {
+    display:block;
+    position: relative;
+    box-shadow: none;
+    width: fit-content;
+    padding-right:1rem;
+}
 
 /* grid visualisations for testing */
-/*.container,
+container,
 .row {
     border: 2px solid black;
 }*/
