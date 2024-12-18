@@ -11,12 +11,10 @@
     /* off-white */
     --primary-font-color: #1C261E;
     /* dark green */
+    --tertiary-background-color: #384955;
 }
 
 /* Global Styles */
-body {
-    background-color: var(--primary-background-color);
-}
 
 h1,
 h2,
@@ -30,6 +28,11 @@ h6 {
 p {
     font-family: var(--secondary-font);
     color: var(--primary-font-color);
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: var(--tertiary-background-color);
 }
 
 /* About Me Section */

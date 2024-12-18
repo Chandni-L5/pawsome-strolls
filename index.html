@@ -23,22 +23,25 @@
 <body class="d-flex flex-column min-vh-100">
     <!-- classes set to work with mt auto in footer -->
     <!-- Navigation -->
-    <nav class="navbar bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">
+    <nav class="navbar navbar-expand-lg text-center bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <!--Pawprint icon-->
                 <i class="fa-sharp-duotone fa-solid fa-paw fa-2xl"></i>
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!--Burger button-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#about">About me</a>
+                        <a class="nav-link" href="#about">About Me</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#services">Services</a>
@@ -46,18 +49,31 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#testimonials">Testimonials</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Locations</a>
+                    </li>
+                    <li class="nav-item" href="enquiry.html">
+                        <a class="nav-link" href="enquiry.html">Enquire now</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
 
     <!-- Header with carousel-->
-    <header class="container-fluid">
-        <div class="row text-center">
-            <div class="col-12 col-xl-6">
-                <h1>Pawsome Strolls</h1>
+    <header class="container-fluid justify-content-around">
+        <div class="row">
+            <div class="col-2 text-end">
+                <h1><i class="fa-solid fa-dog"></i></h1>
             </div>
-            <div class="col-12 col-xl-6">Carousel</div>
+            <div class="col-8 text-center">
+                <h1> Pawsome Strolls</h1>
+            </div>
+            <div class="col-2 text-end">
+                <h1><i class="fa-solid fa-dog"></i></h1>
+            </div>
+        </div>
+        <div class="col-12 col-xl-6">Carousel</div>
         </div>
     </header>
 
@@ -112,17 +128,28 @@
                             <div class="col-">
                                 <h1><i class="fa-solid fa-bone"></i></h1>
                             </div>
-                            <div class="col-"><h6>Treats, drinks, poo bags and cuddles all included in the cost</h6></div>
+                            <div class="col-">
+                                <h6>Treats, drinks, poo bags and cuddles all included in the cost</h6>
+                            </div>
                         </div>
                     </div>
                     <div class=row>
                         <div class="col-6 justify-content-around">
-                            <div class="col-"><h1><i class="fa-regular fa-face-laugh-beam"></i></h1></div>
-                            <div class="col-"><h6>Check out the Testimonials to hear from all the happy clients and wagging tails!</h6></div>
+                            <div class="col-">
+                                <h1><i class="fa-regular fa-face-laugh-beam"></i></h1>
+                            </div>
+                            <div class="col-">
+                                <h6>Check out the Testimonials to hear from all the happy clients and wagging tails!
+                                </h6>
+                            </div>
                         </div>
                         <div class="col-6 justify-content-around">
-                            <div class="col-"><h1><i class="fa-solid fa-money-bill-1-wave"></i></h1></div>
-                            <div class="col-"><h6>Great value with bulk booking discounts available.</h6></div>
+                            <div class="col-">
+                                <h1><i class="fa-solid fa-money-bill-1-wave"></i></h1>
+                            </div>
+                            <div class="col-">
+                                <h6>Great value with bulk booking discounts available.</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
