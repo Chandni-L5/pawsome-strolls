@@ -41,8 +41,7 @@ p {
 
 /* Header */ 
 header {
-    border-top: 15px solid white;
-    border-bottom: 15px solid white;
+    border: 20px solid var(--tertiary-background-color);
     margin-bottom: 15px;
 }
 
