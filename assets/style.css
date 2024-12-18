@@ -1,18 +1,24 @@
 /* Google Fonts - Arvo and Lato */
 @import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 
-/* CSS Variables */ 
+/* CSS Variables */
 :root {
     --primary-font: "Arvo", sans-serif;
-    --secondary-font: "Lato", cursive; 
-    --primary-background-color: #8CB3CE; /* light blue */
-    --secondary-background-color: #F6F7F9; /* off-white */
-    --primary-font-color: #1C261E; /* dark green */
+    --secondary-font: "Lato", cursive;
+    --primary-background-color: #8CB3CE;
+    /* light blue */
+    --secondary-background-color: #F6F7F9;
+    /* off-white */
+    --primary-font-color: #1C261E;
+    /* dark green */
 }
 
 /* Global Styles */
+body {
+    background-color: var(--primary-background-color);
+}
 
-h1, 
+h1,
 h2,
 h3 {
     font-family: var(--primary-font);
@@ -20,9 +26,18 @@ h3 {
     color: var(--primary-font-color)
 }
 
-/* grid visualisations for testing */
-.container,
-.row {
-    border: 2px solid black;
+p {
+    font-family: var(--secondary-font);
+    color: var(--primary-font-color);
 }
 
+/* About Me Section */
+#about-text {
+    background-color: #F6F7F9;
+}
+
+/* grid visualisations for testing */
+/*.container,
+.row {
+    border: 2px solid black;
+}*/
