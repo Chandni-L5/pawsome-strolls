@@ -74,6 +74,11 @@ font-family: var(--secondary-font);
     font-family: var(--secondary-font);
 }
 
+/* Footer */
+footer > div > div > div>  p {
+    text-align: start;
+}
+
 /* Media query: tablets and phones (786 and down) */
 
 /*Media query: lg and xl screens */
