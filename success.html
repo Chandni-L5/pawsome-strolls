@@ -20,18 +20,48 @@
     <link rel="stylesheet" href="assets/style.css">
 </head>
 
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar navbar-expand-lg text-center bg-dark" data-bs-theme="dark">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <!--Pawprint icon-->
+                    <i class="fa-sharp-duotone fa-solid fa-paw fa-2xl"></i>
+                </a>
+                <!--Burger button-->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#about">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Locations</a>
+                        </li>
+                        <li class="nav-item" href="enquiry.html">
+                            <a class="nav-link" href="enquiry.html">Enquire now</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
 <body class="d-flex flex-column min-vh-100">
     <!-- classes set to work with mt auto in footer -->
-    <!-- Navigation -->
-    <div> Navigation</div>
-
-    <!-- Header with carousel-->
-    <header class="container">
-        <div class="row text-center">
-            <div class="col">
-                <h1>Pawsome Strolls</h1>
-            </div>
-    </header>
 
     <!-- Main -->
     <main>
@@ -48,15 +78,38 @@
     </main>
 
     <!-- Footer/contact section -->
+    <!-- Footer/contact section -->
     <footer class="mt-auto">
         <!-- mt auto to push footer to bottom of page-->
-        <div class="container">
+        <div class="container-fluid text-center">
             <div class="row justify-content">
-                <div class="col-12">
-                    <h3>Contact Me</h3>
+                <div class="col-12 col-lg-6">
+                    <h2>Contact Me</h2>
+                    <p id="contact"><i class="fa-solid fa-at"></i>  jenny@pawsomestrolls.com<br><i class="fa-solid fa-phone"></i>   012 345 6789</p>
                 </div>
-                <!-- Contact info -->
-                <div class="col-12 col-md col-xl-4">Email: Jenny@pawsomestrolls.com<br>Phone: 012 345 6789</div>
+                <!--Social media links-->
+                <div class="col-12 col-lg-6">
+                    <div>
+                        <h2>Socials</h2>
+                    </div>
+                    <div class="row justify-content-around">
+                        <div class="col-2">
+                            <h1><a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Facebook page (opens in a new tab)"><i
+                                        class="fa-brands fa-facebook"></i></a></h1>
+                        </div>
+                        <div class="col-2">
+                            <h1><a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Twitter page (opens in a new tab)">
+                                    <i class="fa-brands fa-twitter"></i></a></h1>
+                        </div>
+                        <div class="col-2">
+                            <h1> <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                                    aria-label="Visit our Instagram page (opens in a new tab)">
+                                    <i class="fa-brands fa-instagram"></i></a></h1>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
