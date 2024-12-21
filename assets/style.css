@@ -14,11 +14,19 @@
     --tertiary-background-color: #5e8697;
     /* dark colour */
     --quaternary-background-color: #222529;
+    /*grey*/
+    --secondary-font-color: #9b9d9e;
 }
 
 /* Global Styles */
 
-h1,
+h1 {
+    font-family: var(--primary-font);
+    background-color: var(--quaternary-background-color);
+    color: var(--primary-background-color);
+    font-weight: 200;
+}
+
 h2,
 h3,
 h6 {
@@ -35,6 +43,11 @@ body {
     background-color: var(--tertiary-background-color);
     margin-top: 20px;
 }
+
+section {
+    margin-bottom: 20px;
+}
+
 
 /* Navbar Styling */
 .navbar {
@@ -54,10 +67,6 @@ nav {
 .image-size {
     width: 100%;
     object-fit: contain;
-}
-
-#title {
-    margin: 20px 0px 20px 0px;
 }
 
 /* About Me Section */
@@ -121,3 +130,18 @@ footer>div>div>div>div>h2 {
 
 /*Media query: tablets and smaller (768) */
 @media screen and (min-width:768px) {}
+
+/*media query: larger screens (1440)*/
+@media screen and (min-width: 1024px) {
+
+    /*Title*/
+    .title {
+        margin-top: 100px;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: start;
+    }
+    
+}
