@@ -32,7 +32,8 @@ h3,
 h6 {
     font-family: var(--primary-font);
     background-color: var(--primary-background-color);
-    color: var(--primary-font-color)
+    color: var(--primary-font-color);
+    margin-bottom: 0px;
 }
 
 h4 {
@@ -40,8 +41,8 @@ h4 {
 }
 
 body {
-    background-color: var(--tertiary-background-color);
     margin-top: 20px;
+    background-color: var(--tertiary-background-color);
 }
 
 section {
@@ -71,7 +72,9 @@ nav {
 
 /* About Me Section */
 #about-text {
-    background-color: #F6F7F9;
+    background-color: var(--primary-background-color);
+    font-family: var(--secondary-font);
+    font-size: large;
     font-family: var(--secondary-font);
 }
 
@@ -138,10 +141,5 @@ footer>div>div>div>div>h2 {
     .title {
         margin-top: 100px;
         padding: 0;
-    }
-
-    h2 {
-        text-align: start;
-    }
-    
+    }    
 }
