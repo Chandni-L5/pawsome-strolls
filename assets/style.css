@@ -11,7 +11,7 @@
     /* off-white */
     --primary-font-color: #1C261E;
     /* dark green */
-    --tertiary-background-color: #384955;
+    --tertiary-background-color: #5e8697;
 }
 
 /* Global Styles */
@@ -25,8 +25,13 @@ h6 {
     color: var(--primary-font-color)
 }
 
+h4 {
+    font-family: var(--primary-font);
+}
+
 body {
     background-color: var(--tertiary-background-color);
+    margin-top: 20px;
 }
 
 p {
@@ -38,7 +43,7 @@ p {
 .navbar {
     background-color: var(--tertiary-background-color);
     margin-bottom: 15px;
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 99;
     box-shadow: 0 2px 2px var(--tertiary-background-color);
@@ -61,6 +66,12 @@ nav {
 /* About Me Section */
 #about-text {
     background-color: #F6F7F9;
+font-family: var(--secondary-font);
+}
+
+/* Services cards */
+.card-text {
+    font-family: var(--secondary-font);
 }
 
 /* Media query: tablets and phones (786 and down) */
