@@ -50,11 +50,6 @@ nav {
     font-family: var(--primary-font);
 }
 
-/* Footer */
-footer > div > div > div>  p {
-    text-align: start;
-}
-
 /* Header */
 .image-size {
     width: 100%;
@@ -68,7 +63,7 @@ footer > div > div > div>  p {
 /* About Me Section */
 #about-text {
     background-color: #F6F7F9;
-font-family: var(--secondary-font);
+    font-family: var(--secondary-font);
 }
 
 /* Services cards */
@@ -76,9 +71,11 @@ font-family: var(--secondary-font);
     font-family: var(--secondary-font);
 }
 
+/* Footer */
+
 footer {
     background-color: var(--quaternary-background-color);
-    color:#9b9d9e;
+    color: #9b9d9e;
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: large;
@@ -92,31 +89,35 @@ footer h1 a {
     color: #9b9d9e;
 }
 
-footer > div > div > div > h2 {
+footer>div>div>div>h2 {
     margin: 10px 150px 10px 150px;
     background-color: var(--quaternary-background-color);
     color: azure;
 }
 
-footer > div > div > div > div > h2 {
+footer>div>div>div>div>h2 {
     margin: 10px 150px 10px 150px;
     background-color: var(--quaternary-background-color);
     color: azure;
 }
 
 /* Media query: phones (425 and down) */
-@media screen (min-width:425px) {
+@media screen and (min-width: 320px) {
+
+    /* About me */
     .card #aboutme {
         width: 18rem;
     }
+
+    /* Footer */
+    footer>div>div>div>h2 {
+        margin: 10px 0px 10px 0px;
+    }
+
+    footer>div>div>div>div>h2 {
+        margin: 10px 0px 10px 0px;
+    }
 }
 
-/*Media query: lg and xl screens */
-
-
-
-/* grid visualisations for testing */
-/* container,
-.row {
-    border: 2px solid black;
-}*/
+/*Media query: tablets and smaller (768) */
+@media screen and (min-width:768px) {}
