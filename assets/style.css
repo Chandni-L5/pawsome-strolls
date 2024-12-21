@@ -12,6 +12,8 @@
     --primary-font-color: #1C261E;
     /* dark green */
     --tertiary-background-color: #5e8697;
+    /* dark colour */
+    --quaternary-background-color: #222529;
 }
 
 /* Global Styles */
@@ -34,11 +36,6 @@ body {
     margin-top: 20px;
 }
 
-p {
-    font-family: var(--secondary-font);
-    color: var(--primary-font-color);
-}
-
 /* Navbar Styling */
 .navbar {
     background-color: var(--tertiary-background-color);
@@ -51,6 +48,11 @@ p {
 
 nav {
     font-family: var(--primary-font);
+}
+
+/* Footer */
+footer > div > div > div>  p {
+    text-align: start;
 }
 
 /* Header */
@@ -74,24 +76,47 @@ font-family: var(--secondary-font);
     font-family: var(--secondary-font);
 }
 
-/* Footer */
-footer > div > div > div>  p {
-    text-align: start;
+footer {
+    background-color: var(--quaternary-background-color);
+    color:#9b9d9e;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: large;
 }
 
-/* Media query: tablets and phones (786 and down) */
+footer h1 {
+    background-color: var(--quaternary-background-color);
+}
+
+footer h1 a {
+    color: #9b9d9e;
+}
+
+footer > div > div > div > h2 {
+    margin: 10px 150px 10px 150px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+}
+
+footer > div > div > div > div > h2 {
+    margin: 10px 150px 10px 150px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+}
+
+/* Media query: phones (425 and down) */
+@media screen (min-width:425px) {
+    .card #aboutme {
+        width: 18rem;
+    }
+}
 
 /*Media query: lg and xl screens */
-nav {
-    display:block;
-    position: relative;
-    box-shadow: none;
-    width: fit-content;
-    padding-right:1rem;
-}
+
+
 
 /* grid visualisations for testing */
-container,
+/* container,
 .row {
     border: 2px solid black;
 }*/
