@@ -30,7 +30,9 @@ h3 {
     border-radius: 5%;
 }
 
-h4 {
+h4,
+h5 {
+    text-align: center;
     font-family: var(--primary-font);
 }
 
@@ -46,6 +48,8 @@ section {
 li {
     font-family: var(--secondary-font);
 }
+
+
 
 /* Navbar Styling */
 .navbar {
@@ -127,11 +131,14 @@ Main>section>div>div>div>i {
     border-radius: 30px;
 }
 
-/* Testimonials */
-#testimonials {
-    color: #9b9d9e;
+/* Testimonials*/
+.testimonial-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
 }
-
 
 /* Footer */
 
@@ -221,7 +228,7 @@ footer>div>div>div>div>h2 {
     }
 }
 
-/*media query: larger screens (1440)*/
+/*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
 
     /*Title*/
@@ -238,11 +245,5 @@ footer>div>div>div>div>h2 {
         display: flex;
         justify-content: space-around;
         border: 2px solid var(--tertiary-background-color);
-    }
-
-    #discount {
-        position: absolute;
-        top: 150px;
-        align-self: center;
     }
 }
