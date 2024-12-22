@@ -20,7 +20,7 @@
 
 /* Global Styles */
 
-h1, 
+h1,
 h2,
 h3 {
     font-family: var(--primary-font);
@@ -41,7 +41,6 @@ body {
 section {
     margin-bottom: 20px;
 }
-
 
 /* Navbar Styling */
 .navbar {
@@ -75,24 +74,50 @@ nav {
     font-family: var(--secondary-font);
 }
 
-Main > section > div > div > div > i {
+Main>section>div>div>div>i {
     font-size: xx-large;
 }
 
-    .card-shape {
-        padding-top: 12px;
-        padding-left: 12px;
-        padding-bottom: 12px;
-        padding-right: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
+.card-shape {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 /* Services cards */
 .card-text {
     font-family: var(--secondary-font);
+}
+
+.service-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
+}
+
+#puppyprice {
+    border: 2px dashed fuchsia;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+#dogprice {
+    border: 2px dashed aquamarine;
+    margin-bottom: 5px;
+    border-radius: 30px;
+}
+
+#soloprice {
+    border: 2px dashed yellow;
+    margin-bottom: 5px;
+    border-radius: 30px;
 }
 
 /* Footer */
@@ -128,17 +153,17 @@ footer>div>div>div>div>h2 {
 /* Media query: phones (425 and down) */
 @media screen and (min-width: 320px) {
 
-    /* About me */}
-    .card-shape {
-        padding-top: 12px;
-        padding-left: 12px;
-        padding-bottom: 12px;
-        padding-right: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
+    /* About me */
+.card-shape {
+    padding-top: 12px;
+    padding-left: 12px;
+    padding-bottom: 12px;
+    padding-right: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
 
 .card1 {
     background-color: var(--primary-background-color);
@@ -151,15 +176,16 @@ footer>div>div>div>div>h2 {
     font-family: var(--primary-font);
 }
 
-    /* Footer */
-    footer>div>div>div>h2 {
-        margin: 10px 0px 10px 0px;
-    }
-
-    footer>div>div>div>div>h2 {
-        margin: 10px 0px 10px 0px;
-    }
+/* Footer */
+footer>div>div>div>h2 {
+    margin: 10px 0px 10px 0px;
 }
+
+footer>div>div>div>div>h2 {
+    margin: 10px 0px 10px 0px;
+}
+}
+
 
 /*Media query: tablets and smaller (768) */
 @media screen and (min-width:768px) {
@@ -189,5 +215,11 @@ footer>div>div>div>div>h2 {
         justify-content: center;
         align-items: center;
         height: 100%;
-    }    
+    }
+
+    .service-card {
+        display: flex;
+        justify-content: space-around;
+        border: 2px solid var(--tertiary-background-color);
+    }
 }
