@@ -20,20 +20,13 @@
 
 /* Global Styles */
 
-h1 {
+h1, 
+h2,
+h3 {
     font-family: var(--primary-font);
     background-color: var(--quaternary-background-color);
     color: var(--primary-background-color);
     font-weight: 200;
-}
-
-h2,
-h3,
- {
-    font-family: var(--primary-font);
-    background-color: var(--primary-background-color);
-    color: var(--primary-font-color);
-    margin-bottom: 0px;
 }
 
 h4 {
@@ -86,6 +79,17 @@ Main > section > div > div > div > i {
     font-size: xx-large;
 }
 
+    .card-shape {
+        padding-top: 12px;
+        padding-left: 12px;
+        padding-bottom: 12px;
+        padding-right: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
 /* Services cards */
 .card-text {
     font-family: var(--secondary-font);
@@ -95,7 +99,7 @@ Main > section > div > div > div > i {
 
 footer {
     background-color: var(--quaternary-background-color);
-    color: #9b9d9e;
+    color: var(--primary-background-color);
     font-family: var(--secondary-font);
     font-weight: 500;
     font-size: large;
@@ -130,6 +134,10 @@ footer>div>div>div>div>h2 {
         padding-left: 12px;
         padding-bottom: 12px;
         padding-right: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }
 
 .card1 {
@@ -177,5 +185,9 @@ footer>div>div>div>div>h2 {
     .title {
         margin-top: 100px;
         padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
     }    
 }
