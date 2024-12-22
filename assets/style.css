@@ -65,6 +65,7 @@ nav {
 .image-size {
     width: 100%;
     object-fit: contain;
+    border-radius: 20px;
 }
 
 /* About Me Section */
@@ -144,7 +145,6 @@ footer {
 
 footer h1 {
     color: #9b9d9e;
-    background-color: ;
 }
 
 footer h1 a {
