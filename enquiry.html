@@ -69,8 +69,9 @@
                 </div>
             </div>
         </section>
-        <section class="container">
-            <form>
+        <section class="container form-section">
+            <!-- Enquiry page -->
+            <form action="success.html" method="GET">
                 <div class="row g-3">
                     <div class="col-12 col-md-6">
                         <input type="text" class="form-control" placeholder="Name" aria-label="name" required>
@@ -86,7 +87,8 @@
                         <input type="text" class="form-control" placeholder="Dog's Name" aria-label="name" required>
                     </div>
                     <div class="col-12">
-                        <select id="service-type" class="form-control" name="service-type" aria-label="service-type" required>
+                        <select id="service-type" class="form-control" name="service-type" aria-label="service-type"
+                            required>
                             <option value="" selected>Select the service you require</option>
                             <option value="puppy">Puppy Walks</option>
                             <option value="dog">Dog Walks</option>
@@ -97,8 +99,9 @@
                         <textarea class="form-control" rows="6" id="message" name="message"
                             placeholder="Please provide your enquiry details." required></textarea>
                     </div>
+                    <!-- Submit button -->
                     <div class="col-12">
-                        <button class="btn btn-primary" type="submit">Submit form</button>
+                        <input type="submit" value="Submit form" class="submit-style">
                     </div>
                 </div>
             </form>
