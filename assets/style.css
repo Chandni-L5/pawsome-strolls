@@ -23,73 +23,162 @@
 h1,
 h2,
 h3 {
-    font-family: var(--primary-font);
-    background-color: var(--quaternary-background-color);
-    color: var(--primary-background-color);
-    font-weight: 200;
-    border-radius: 5%;
+   font-family: var(--primary-font);
+   background-color: var(--quaternary-background-color);
+   color: var(--primary-background-color);
+   font-weight: 200;
+   border-radius: 5%;
 }
 
 h4,
 h5 {
-    text-align: center;
-    font-family: var(--primary-font);
+   text-align: center;
+   font-family: var(--primary-font);
 }
 
 body {
     margin-top: 20px;
     background-color: var(--tertiary-background-color);
-}
+ }
 
-section {
+ section {
     margin-bottom: 20px;
-}
+ }
 
-li {
+ li {
     font-family: var(--secondary-font);
-}
+ }
 
+ .image-style {
+    border-radius: 30px;
+ }
 
-
-/* Navbar Styling */
+ /* Navbar Styling */
 .navbar {
     background-color: var(--tertiary-background-color);
     margin-bottom: 15px;
-    position: relative;
-    width: 100%;
-    z-index: 99;
-    box-shadow: 0 2px 2px var(--tertiary-background-color);
 }
 
 nav {
     font-family: var(--primary-font);
-}
-
-/* Header */
+ }
+ 
+ /* Header */
 .image-size {
     width: 100%;
     object-fit: contain;
-    border-radius: 20px;
+    border-radius: 30px;
 }
 
 /* About Me Section */
 #about {
     font-family: var(--primary-font);
-    color: #9b9d9e;
-}
-
-#about-text {
+    color: var(--secondary-font-color);
+ }
+ 
+ #about-text {
     background-color: var(--primary-background-color);
     font-family: var(--secondary-font);
     font-size: large;
     font-family: var(--secondary-font);
-}
+    text-align: start;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
 
-Main>section>div>div>div>i {
+ Main>section>div>div>div>i {
     font-size: xx-large;
-}
+ }
 
-.card-shape {
+ .aboutcard {
+    font-size: small;
+    font-family: var(--primary-font);
+}
+ 
+/* Services cards */
+.card-text {
+    font-family: var(--secondary-font);
+ }
+
+ .service-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
+ }
+
+ #puppyprice {
+    border: 2px dashed fuchsia;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+ 
+ 
+ #dogprice {
+    border: 2px dashed aquamarine;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+ 
+ 
+ #soloprice {
+    border: 2px dashed yellow;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+
+ /* Testimonials*/
+.testimonial-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
+ }
+
+
+ 
+ /* Footer */
+
+footer {
+    background-color: var(--quaternary-background-color);
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: large;
+ }
+
+ footer h1 {
+    color: var(--secondary-font-color);
+ }
+
+ footer h1 a {
+    color: var(--secondary-font-color);
+ }
+
+ footer>div>div>div>h2 {
+    margin: 10px 150px 10px 150px;
+ }
+ 
+ 
+ footer>div>div>div>div>h2 {
+    margin: 10px 150px 10px 150px;
+ }
+ 
+ /* Media query: phones (425 and down) */
+@media screen and (min-width: 320px) {
+
+
+    h1 {
+        border-radius: 20%;
+        font-size: xx-large;
+    }
+
+     /* About me */
+   .card-shape {
     padding-top: 12px;
     padding-left: 12px;
     padding-bottom: 12px;
@@ -100,136 +189,32 @@ Main>section>div>div>div>i {
     height: 100%;
 }
 
-/* Services cards */
-.card-text {
-    font-family: var(--secondary-font);
+   /* Footer */
+   footer>div>div>div>h2 {
+    margin: 10px 0px 10px 0px;
 }
 
-.service-card {
-    padding-top: 12px;
-    background-color: var(--quaternary-background-color);
-    color: azure;
-    border-radius: 30px;
-    margin-bottom: 10px;
-}
-
-#puppyprice {
-    border: 2px dashed fuchsia;
-    margin-bottom: 5px;
-    border-radius: 30px;
-}
-
-#dogprice {
-    border: 2px dashed aquamarine;
-    margin-bottom: 5px;
-    border-radius: 30px;
-}
-
-#soloprice {
-    border: 2px dashed yellow;
-    margin-bottom: 5px;
-    border-radius: 30px;
-}
-
-/* Testimonials*/
-.testimonial-card {
-    padding-top: 12px;
-    background-color: var(--quaternary-background-color);
-    color: azure;
-    border-radius: 30px;
-    margin-bottom: 10px;
-}
-
-/* Footer */
-
-footer {
-    background-color: var(--quaternary-background-color);
-    color: #9b9d9e;
-    font-family: var(--secondary-font);
-    font-weight: 500;
-    font-size: large;
-}
-
-footer h1 {
-    color: #9b9d9e;
-}
-
-footer h1 a {
-    color: #9b9d9e;
-}
-
-footer>div>div>div>h2 {
-    margin: 10px 150px 10px 150px;
-    background-color: var(--quaternary-background-color);
-    color: var(--primary-background-color);
-}
 
 footer>div>div>div>div>h2 {
-    margin: 10px 150px 10px 150px;
-    background-color: var(--quaternary-background-color);
-    color: var(--primary-background-color);
+    margin: 10px 0px 10px 0px;
 }
-
-/* Media query: phones (425 and down) */
-@media screen and (min-width: 320px) {
-
-    h1 {
-        border-radius: 5%;
-    }
-
-    /* About me */
-    .card-shape {
-        padding-top: 12px;
-        padding-left: 12px;
-        padding-bottom: 12px;
-        padding-right: 12px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: 100%;
-    }
-
-    .card1 {
-        background-color: var(--primary-background-color);
-        width: 10rem;
-        height: 7rem;
-    }
-
-    .aboutcard {
-        font-size: small;
-        font-family: var(--primary-font);
-    }
-
-    /* Footer */
-    footer>div>div>div>h2 {
-        margin: 10px 0px 10px 0px;
-    }
-
-    footer>div>div>div>div>h2 {
-        margin: 10px 0px 10px 0px;
-    }
 }
-
 
 /*Media query: tablets and smaller (768) */
 @media screen and (min-width:768px) {
 
+/* About me cards */
     .card-shape {
         padding-top: 12px;
         padding-left: 12px;
         padding-bottom: 12px;
         padding-right: 12px;
-    }
-
-    .card1 {
-        background-color: var(--primary-background-color);
-        width: 10rem;
-        height: 10rem;
     }
 }
 
 /*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
+
 
     /*Title*/
     .title {
@@ -245,5 +230,20 @@ footer>div>div>div>div>h2 {
         display: flex;
         justify-content: space-around;
         border: 2px solid var(--tertiary-background-color);
-    }
+    } 
 }
+
+
+
+ 
+
+
+ 
+ 
+
+ 
+
+
+
+
+
