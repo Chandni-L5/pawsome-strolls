@@ -63,26 +63,45 @@
     <main>
         <section class="container text-center">
             <div class="row">
-                <div class="col-lg">
-                    <h1>Enquiry Form 
-                    </h1>
+                <div class="col-12">
+                    <h1>Enquiry Form </h1>
+                    <p> Please complete the form below and provide some details for your booking enquiry.</p>
                 </div>
             </div>
         </section>
         <section class="container">
-            <div class="row">
-                <div class="col-lg">
-                    <form>
-                        Name:
-                        Email:
-                        Phone Number:
-                        Dog Name:
-                        Services:
-                        Enquiry details:
-                        Submit button
-                    </form>
+            <form>
+                <div class="row g-3">
+                    <div class="col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Name" aria-label="name" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="email" class="form-control" placeholder="Email" aria-label="email" required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="number" class="form-control" placeholder="Phone number" aria-label="phone"
+                            required>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <input type="text" class="form-control" placeholder="Dog's Name" aria-label="name" required>
+                    </div>
+                    <div class="col-12">
+                        <select id="service-type" class="form-control" name="service-type" aria-label="service-type" required>
+                            <option value="" selected>Select the service you require</option>
+                            <option value="puppy">Puppy Walks</option>
+                            <option value="dog">Dog Walks</option>
+                            <option value="solo">Solo Walks</option>
+                        </select>
+                    </div>
+                    <div class="col-12">
+                        <textarea class="form-control" rows="6" id="message" name="message"
+                            placeholder="Please provide your enquiry details." required></textarea>
+                    </div>
+                    <div class="col-12">
+                        <button class="btn btn-primary" type="submit">Submit form</button>
+                    </div>
                 </div>
-            </div>
+            </form>
         </section>
     </main>
 
