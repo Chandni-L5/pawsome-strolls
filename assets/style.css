@@ -71,6 +71,16 @@ nav {
 }
 
 /* About Me Section */
+#about-image-size {
+    width: 270px;
+    border-radius: 30px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #about {
     font-family: var(--primary-font);
     color: var(--secondary-font-color);
@@ -139,8 +149,6 @@ nav {
     margin-bottom: 10px;
  }
 
-
- 
  /* Footer */
 
 footer {
@@ -215,7 +223,6 @@ footer>div>div>div>div>h2 {
 /*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
 
-
     /*Title*/
     .title {
         margin-top: 100px;
@@ -231,6 +238,20 @@ footer>div>div>div>div>h2 {
         justify-content: space-around;
         border: 2px solid var(--tertiary-background-color);
     } 
+
+    .about-margin {
+        margin-left: 50px;
+    }
+
+    #about-image-size {
+        width: 200px;
+        border-radius: 30px;
+        object-fit: contain;
+        margin-bottom: 10px;
+        display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
 }
 
 
