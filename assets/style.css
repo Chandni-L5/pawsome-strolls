@@ -53,8 +53,27 @@ body {
     border-radius: 30px;
  }
 
+ .btn-custom {
+   border-radius: 20px;
+   border: dashed white 2px;
+   background-color: var(--quaternary-background-color);
+   color: var(--secondary-font-color);
+ }
+
+ #enq-btn {
+border: dashed aquamarine 6px;
+   background-color: var(--quaternary-background-color);
+   color: aquamarine;
+   display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    font-size: large;
+    font-family: var(--primary-font);
+ }
+
  /* Navbar Styling */
-.navbar {
+.navbar { 2px
     background-color: var(--tertiary-background-color);
     margin-bottom: 15px;
 }
@@ -62,7 +81,7 @@ body {
 nav {
     font-family: var(--primary-font);
  }
- 
+
  /* Header */
 .image-size {
     width: 100%;
@@ -108,6 +127,11 @@ nav {
 }
  
 /* Services cards */
+#services{
+margin-top: 12px;
+margin-bottom: 12px;
+}
+
 .card-text {
     font-family: var(--secondary-font);
  }
@@ -126,13 +150,11 @@ nav {
     border-radius: 30px;
  }
  
- 
  #dogprice {
     border: 2px dashed aquamarine;
     margin-bottom: 5px;
     border-radius: 30px;
  }
- 
  
  #soloprice {
     border: 2px dashed yellow;
