@@ -192,6 +192,18 @@ Main>section>div>div>div>i {
 
 /* Enquiry Page */
 
+#enq-title {
+   height: auto;
+   width: 20%; 
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+}
+
+#enq-intro {
+   font-family: var(--secondary-font);
+}
+
 .form-section {
    display: flex;
    flex-direction: column;
@@ -203,6 +215,7 @@ Main>section>div>div>div>i {
    color: var(--primary-font-color);
    justify-content: center;
    align-items: center;
+   border-radius: 10px;
 }
 
 .submit-style {
@@ -222,6 +235,31 @@ Main>section>div>div>div>i {
    color: var(--primary-font-color);
    background-color: var(--primary-background-color);
    border: var(--quaternary-background-color) 6px solid;
+}
+
+/* Success Page */
+.success {
+   height: auto;
+   width: 60%; 
+   display: block;
+   margin-left: auto;
+   margin-right:auto;
+   padding: 5px 5px 5px 5px;
+   margin-top: 10%;
+}
+
+.text {
+   display: flex;
+   flex-direction: column;
+   background-color: var(--primary-background-color);
+   background-size: cover;
+   padding: 20px 10% 20px 10%;
+   flex-grow: 1;
+   font-family: var(--primary-font);
+   color: var(--primary-font-color);
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
 }
 
 /* Footer */
