@@ -37,7 +37,7 @@ h5 {
 }
 
 body {
-   margin-top: 80.8px;
+   margin-top: 80.8px; /* Set to ensure the navbar doesn't block the content */
    background-color: var(--tertiary-background-color);
 }
 
