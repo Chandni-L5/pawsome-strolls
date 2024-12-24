@@ -37,7 +37,7 @@ h5 {
 }
 
 body {
-   margin-top: 20px;
+   margin-top: 80.8px;
    background-color: var(--tertiary-background-color);
 }
 
@@ -62,7 +62,7 @@ li {
 
 .btn-custom:hover {
    border-radius: 20px;
-   border: dashed  2px;
+   border: dashed 2px;
    background-color: azure;
    color: var(--quaternary-background-color);
 }
@@ -94,11 +94,18 @@ li {
 /* Navbar Styling */
 .navbar {
    background-color: var(--tertiary-background-color);
-   margin-bottom: 15px;
 }
 
 nav {
    font-family: var(--primary-font);
+}
+
+.nav-link {
+   font-size: larger;
+}
+
+#nav-button {
+   font-size:larger;
 }
 
 /* Header */
@@ -194,10 +201,10 @@ Main>section>div>div>div>i {
 
 #enq-title {
    height: auto;
-   width: 20%; 
+   width: 20%;
    display: block;
    margin-left: auto;
-   margin-right:auto;
+   margin-right: auto;
 }
 
 #enq-intro {
@@ -226,9 +233,9 @@ Main>section>div>div>div>i {
    background-color: var(--quaternary-background-color);
    border: var(--quaternary-background-color) 2px solid;
    font-weight: 700;
-   display:block;
+   display: block;
    margin-left: auto;
-   margin-right:auto;
+   margin-right: auto;
 }
 
 .submit-style:hover {
@@ -240,10 +247,10 @@ Main>section>div>div>div>i {
 /* Success Page */
 .success {
    height: auto;
-   width: 60%; 
+   width: 60%;
    display: block;
    margin-left: auto;
-   margin-right:auto;
+   margin-right: auto;
    padding: 5px 5px 5px 5px;
    margin-top: 10%;
 }
@@ -368,6 +375,6 @@ footer>div>div>div>div>h2 {
 
    .form-section {
       padding: 20px 5% 20px 5%;
-   width:45%;
+      width: 45%;
    }
 }
