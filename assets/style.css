@@ -382,6 +382,11 @@ footer>div>div>div>div>h2 {
     height: 450px;
    }
 
+   /*success page*/
+   .text {
+      font-size: smaller;
+   }
+
    /* Footer */
    footer>div>div>div>h2 {
       margin: 10px 0px 10px 0px;
