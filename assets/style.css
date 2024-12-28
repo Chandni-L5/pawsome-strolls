@@ -248,6 +248,11 @@ Main>section>div>div>div>i {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   font-family: var(--primary-font);
+   color: var(--secondary-font-color);
+   background-color: var(--quaternary-background-color);
+   border-radius: 30px;
+   margin-top: 20px;
 }
 
 #enq-intro {
@@ -266,6 +271,7 @@ Main>section>div>div>div>i {
    justify-content: center;
    align-items: center;
    border-radius: 10px;
+   margin-bottom: 20px;
 }
 
 .submit-style {
@@ -296,6 +302,8 @@ Main>section>div>div>div>i {
    margin-right: auto;
    padding: 5px 5px 5px 5px;
    margin-top: 10%;
+   background-color: var(--quaternary-background-color);
+   border-radius: 20px;
 }
 
 .text {
