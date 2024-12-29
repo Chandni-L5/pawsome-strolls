@@ -62,22 +62,24 @@ li {
 
 .image-style {
    border-radius: 30px;
-   width: 374px;
+   width: 100%;
    height: 250px;
    object-fit: contain;
    display: block;
    margin-left: auto;
    margin-right: auto;
+   aspect-ratio: 1;
 }
 
 .image-style2 {
    border-radius: 30px;
-   width: 374px;
+   width: 100%;
    height: 550px;
    object-fit: contain;
    display: block;
    margin-left: auto;
    margin-right: auto;
+   aspect-ratio: 1;
 }
 
 .btn-custom {
@@ -174,6 +176,7 @@ a:active {
    display: block;
    margin-left: auto;
    margin-right: auto;
+   aspect-ratio: 1;
 }
 
 #about {
@@ -259,8 +262,11 @@ video {
    justify-content: space-evenly;
 }
 
-/* Enquiry Page */
+.testimonial-card-body {
+   padding-top: 5px;
+}
 
+/* Enquiry Page */
 #enq-title {
    height: auto;
    width: 20%;
@@ -366,14 +372,19 @@ footer>div>div>div>div>h2 {
    margin: 10px 150px 10px 150px;
 }
 
-/* Media query: phones (320 and down) */
-@media screen and (max-width: 450px) {
+/* Media query: phones (425 and down) */
+@media screen and (max-width: 425px) {
 
 
    h1 {
       font-size: large;
       font-weight: 700;
       font-stretch: expanded;
+   }
+
+   /* Carousel*/
+   .image-size {
+      width: 100%;
    }
 
    /* About me */
@@ -390,21 +401,25 @@ footer>div>div>div>div>h2 {
 
    /* Services */
    video {
-      width: 250px;
-      height: 170px;
+      width: 100%;
+      height: 300px;
    }
 
    /*Testimonials*/
    .image-style {
       display: flex;
-      width: 250px;
+      width: 100%;
       height: 170px;
+      border-radius: 30px;
+      aspect-ratio: 1;
    }
 
    .image-style2 {
       display: flex;
-      width: 274px;
+      width: 100%;
       height: 450px;
+      border-radius: 30px;
+      aspect-ratio: 1;
    }
 
    /*success page*/
@@ -452,6 +467,7 @@ footer>div>div>div>div>h2 {
       border-radius: 30px;
       margin-left: auto;
       margin-right: auto;
+      aspect-ratio: 1;
    }
 
    .service-card {
@@ -472,6 +488,7 @@ footer>div>div>div>div>h2 {
       display: block;
       margin-left: auto;
       margin-right: auto;
+      aspect-ratio: 1;
    }
 
    .form-section {
