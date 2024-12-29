@@ -98,7 +98,7 @@ li {
    font-family: var(--primary-font);
 }
 
-#enq-btn {
+.enq-btn {
    border: dashed aquamarine 6px;
    background-color: var(--quaternary-background-color);
    color: aquamarine;
@@ -157,6 +157,14 @@ a:active {
 }
 
 /* Carousel */
+.title {
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+}
+
 .image-size {
    width: 60%;
    object-fit: contain;
@@ -269,14 +277,14 @@ video {
 /* Enquiry Page */
 #enq-title {
    height: auto;
-   width: 20%;
+   width: 50%;
    display: block;
    margin-left: auto;
    margin-right: auto;
    font-family: var(--primary-font);
    color: var(--secondary-font-color);
    background-color: var(--quaternary-background-color);
-   border-radius: 30px;
+   border-radius: 20px;
    margin-top: 20px;
 }
 
@@ -355,12 +363,10 @@ footer {
    font-size: large;
 }
 
-footer h1 {
+.logo-style {
    color: var(--secondary-font-color);
-}
-
-footer h1 a {
-   color: var(--secondary-font-color);
+   text-decoration: none;
+   font-size: xx-large;
 }
 
 footer>div>div>div>h2 {
@@ -452,17 +458,9 @@ footer>div>div>div>div>h2 {
 /*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
 
-   .title {
-      margin-top: 100px;
-      padding: 0;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100%;
-   }
+   /* Carousel */
 
-   .image-size {
-      width: 70%;
+   .carousel-image-size {
       object-fit: contain;
       border-radius: 30px;
       margin-left: auto;
