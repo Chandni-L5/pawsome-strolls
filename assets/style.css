@@ -154,11 +154,15 @@ a:active {
    text-decoration: none;
 }
 
-/* Header */
+/* Carousel */
 .image-size {
-   width: 100%;
+   width: 60%;
    object-fit: contain;
    border-radius: 30px;
+   display: flex;
+   align-items: center;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* About Me Section */
@@ -422,7 +426,6 @@ footer>div>div>div>div>h2 {
 /*Media query: tablets and smaller (768) */
 @media screen and (min-width:768px) {
 
-   /* About me card */
    .card-shape {
       padding-top: 12px;
       padding-left: 12px;
@@ -434,7 +437,6 @@ footer>div>div>div>div>h2 {
 /*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
 
-   /*Title*/
    .title {
       margin-top: 100px;
       padding: 0;
