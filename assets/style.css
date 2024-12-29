@@ -20,9 +20,9 @@
 
 /* Global Styles */
 
-h1{
+h1 {
    font-family: var(--primary-font);
-   color:var(--secondary-font-color);
+   color: var(--secondary-font-color);
    text-decoration: none;
 }
 
@@ -47,7 +47,7 @@ body {
    background-color: var(--tertiary-background-color);
 }
 
-section{
+section {
    padding-bottom: 20px;
 }
 
@@ -136,18 +136,21 @@ nav {
    font-size: larger;
 }
 
-a:link { 
-   text-decoration: none; 
- } 
- a:visited { 
-   text-decoration: none; 
- } 
- a:hover { 
-   text-decoration: none; 
- } 
- a:active { 
-   text-decoration: none; 
- }
+a:link {
+   text-decoration: none;
+}
+
+a:visited {
+   text-decoration: none;
+}
+
+a:hover {
+   text-decoration: none;
+}
+
+a:active {
+   text-decoration: none;
+}
 
 /* Header */
 .image-size {
@@ -228,6 +231,14 @@ Main>section>div>div>div>i {
    border: 2px dashed yellow;
    margin-bottom: 5px;
    border-radius: 30px;
+}
+
+video {
+   position: relative;
+   justify-content: center;
+   padding-top: 30px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* Testimonials*/
@@ -352,7 +363,7 @@ footer>div>div>div>div>h2 {
 
 
    h1 {
-      font-size:large;
+      font-size: large;
       font-weight: 700;
       font-stretch: expanded;
    }
@@ -369,17 +380,23 @@ footer>div>div>div>div>h2 {
       height: 100%;
    }
 
+   /* Services */
+   video {
+      width: 250px;
+      height: 170px;
+   }
+
    /*Testimonials*/
    .image-style {
       display: flex;
       width: 250px;
-    height: 170px;
+      height: 170px;
    }
 
    .image-style2 {
       display: flex;
       width: 274px;
-    height: 450px;
+      height: 450px;
    }
 
    /*success page*/
@@ -425,10 +442,10 @@ footer>div>div>div>div>h2 {
 
    .image-size {
       width: 70%;
-   object-fit: contain;
-   border-radius: 30px;
-   margin-left:auto;
-   margin-right:auto;
+      object-fit: contain;
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
    }
 
    .service-card {
