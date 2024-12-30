@@ -94,7 +94,7 @@ section {
    font-family: var(--primary-font);
 }
 
-#enq-btn:hover {
+.enq-btn:hover {
    border: dashed var(--quaternary-background-color) 6px;
    background-color: aquamarine;
    color: var(--quaternary-background-color);
@@ -171,11 +171,11 @@ a:active {
 
 #about {
    font-family: var(--primary-font);
-   color: var(--secondary-font-color);
+   color: white;
 }
 
 #about-text {
-   background-color: var(--primary-background-color);
+   background-color: var(--quaternary-background-color);
    font-family: var(--secondary-font);
    font-size: large;
    font-family: var(--secondary-font);
