@@ -272,6 +272,7 @@ video {
    border-radius: 30px;
    margin-bottom: 10px;
    justify-content: space-evenly;
+   width: 25rem;
 }
 
 .testimonial-card-body {
