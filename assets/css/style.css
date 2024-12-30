@@ -20,6 +20,10 @@
 
 /* Global Styles */
 
+img {
+   width: 100%
+}
+
 h1 {
    font-family: var(--primary-font);
    color: var(--secondary-font-color);
