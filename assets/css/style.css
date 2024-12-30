@@ -20,7 +20,7 @@
 
 /* Global Styles */
 
-img {
+main {
    width: 100%
 }
 
@@ -60,10 +60,6 @@ section {
    margin-top: -60.8px;
 }
 
-li {
-   font-family: var(--secondary-font);
-}
-
 .image-style {
    border-radius: 30px;
    width: 100%;
@@ -84,22 +80,6 @@ li {
    margin-left: auto;
    margin-right: auto;
    aspect-ratio: 1;
-}
-
-.btn-custom {
-   border-radius: 20px;
-   border: dashed white 2px;
-   background-color: var(--quaternary-background-color);
-   color: var(--secondary-font-color);
-   font-family: var(--primary-font);
-}
-
-.btn-custom:hover {
-   border-radius: 20px;
-   border: dashed 2px;
-   background-color: azure;
-   color: var(--quaternary-background-color);
-   font-family: var(--primary-font);
 }
 
 .enq-btn {
@@ -144,33 +124,31 @@ nav {
    font-size: larger;
 }
 
-a:link {
-   text-decoration: none;
-}
-
-a:visited {
-   text-decoration: none;
-}
-
-a:hover {
-   text-decoration: none;
-}
-
+a:link,
+a:visited,
+a:hover,
 a:active {
    text-decoration: none;
 }
 
-/* Carousel */
-.title {
-   padding: 0;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   margin-top: 20px;
+.btn-custom {
+   border-radius: 20px;
+   border: dashed white 2px;
+   background-color: var(--quaternary-background-color);
+   color: var(--secondary-font-color);
+   font-family: var(--primary-font);
 }
 
-.image-size {
-   width: 60%;
+.btn-custom:hover {
+   border-radius: 20px;
+   border: dashed 2px;
+   background-color: azure;
+   color: var(--quaternary-background-color);
+   font-family: var(--primary-font);
+}
+
+/* Carousel */
+.carousel-image-size {
    object-fit: contain;
    border-radius: 30px;
    display: flex;
@@ -366,6 +344,7 @@ footer {
    font-family: var(--secondary-font);
    font-weight: 500;
    font-size: large;
+   width: 100%;
 }
 
 .logo-style {
@@ -385,17 +364,22 @@ footer>div>div>div>div>h2 {
 
 /* Media query: phones (425 and down) */
 @media screen and (max-width: 425px) {
+   section {
+      padding-top: 30px; 
+   }
 
+main {
+   width: 100%;
+}
+
+img {
+   width: 100%;
+}
 
    h1 {
       font-size: large;
       font-weight: 700;
       font-stretch: expanded;
-   }
-
-   /* Carousel*/
-   .image-size {
-      width: 100%;
    }
 
    /* About me */
@@ -451,6 +435,10 @@ footer>div>div>div>div>h2 {
 
 /*Media query: tablets and smaller (768) */
 @media screen and (min-width:768px) {
+
+   section {
+      padding-top: 40px; 
+   }
 
    .card-shape {
       padding-top: 12px;
