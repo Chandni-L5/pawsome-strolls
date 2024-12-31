@@ -20,34 +20,44 @@
 
 /* Global Styles */
 
+html {
+   scroll-behavior: smooth;
+   /*trying to fix the nav link to section overlap */
+}
+
 h2 {
    font-family: var(--primary-font);
    background-color: var(--quaternary-background-color);
    color: var(--primary-background-color);
    font-weight: 200;
    border-radius: 5%;
-} /* Section Headings */
+   margin-top: 10px;
+}
+
+/* Section Headings */
 
 h4,
 h5 {
    text-align: center;
    font-family: var(--primary-font);
-} /* Service card and Testimonial card headings */
+}
+
+/* Service card and Testimonial card headings */
 
 body {
-   margin-top: 68.83px;
    /* Set to ensure the navbar doesn't block the content */
    background-color: var(--tertiary-background-color);
 }
 
-section {
+/* section {
    padding-bottom: 20px;
-}
+   padding-top: 20px;
+} */
 
-.section {
+/* .section {
    padding-top: 60.8px;
    margin-top: -60.8px;
-}
+} */
 
 .image-style {
    border-radius: 30px;
@@ -72,12 +82,11 @@ section {
 }
 
 .enq-btn {
+   margin: 10px auto 0;
    border: dashed var(--secondary-font-color) 6px;
    background-color: var(--quaternary-background-color);
    color: var(--secondary-font-color);
    display: block;
-   margin-left: auto;
-   margin-right: auto;
    width: 10rem;
    font-size: large;
    font-family: var(--primary-font);
@@ -124,11 +133,19 @@ a:active {
    border-radius: 30px;
    display: flex;
    align-items: center;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 70px auto 0;
 }
 
 /* About Me Section */
+#about-me {
+   padding-top: 15px;
+   margin-top: -15px;
+}
+
+#about-me-header {
+   margin-block: 12px;
+}
+
 #about-image-size {
    width: 12rem;
    border-radius: 30px;
@@ -141,6 +158,7 @@ a:active {
 }
 
 #about-text {
+   margin-inline: auto; 
    background-color: var(--quaternary-background-color);
    font-family: var(--secondary-font);
    font-size: large;
@@ -166,17 +184,21 @@ Main>section>div>div>div>i {
    border: dashed 4px var(--primary-background-color);
    margin: 10px;
    width: 15rem;
-   margin-left:auto;
+   margin-left: auto;
    margin-right: auto;
-   display:flex;
+   display: flex;
    justify-content: center;
    border-radius: 30px;
 }
 
 /* Services cards */
 #services {
-   margin-top: 12px;
-   margin-bottom: 12px;
+   padding-top: 15px;
+   margin-top: -15px;
+}
+
+#services-header {
+   margin: 12px 0 0 0; 
 }
 
 .service-card {
@@ -184,8 +206,8 @@ Main>section>div>div>div>i {
    background-color: var(--quaternary-background-color);
    color: azure;
    border-radius: 30px;
-   margin-bottom: 10px;
    width: 25rem;
+   margin-top: 10px;
 }
 
 #puppyprice,
@@ -207,14 +229,23 @@ video {
 }
 
 /* Testimonials*/
+#testimonials {
+   padding-top: 15px;
+   margin-top: -15px;
+}
+
+#testimonials-header {
+   margin-bottom: 0;
+}
+
 .testimonial-card {
    padding-top: 12px;
    background-color: var(--quaternary-background-color);
    color: azure;
    border-radius: 30px;
-   margin-bottom: 10px;
    justify-content: space-evenly;
    width: 25rem;
+   margin-top: 10px;
 }
 
 .testimonial-card-body {
@@ -301,6 +332,9 @@ video {
 }
 
 /* Footer */
+#page-end {
+   margin-top: 12px;
+}
 
 footer {
    background-color: var(--quaternary-background-color);
@@ -309,6 +343,7 @@ footer {
    font-weight: 500;
    font-size: large;
    width: 100%;
+   margin-top: 10px;
 }
 
 .logo-style {
@@ -328,17 +363,17 @@ footer>div>div>div>div>h2 {
 
 /* Media query: phones (425 and down) */
 @media screen and (max-width: 425px) {
-   section {
-      padding-top: 30px; 
+   /* section {
+      padding-top: 30px;
+   } */
+
+   main {
+      width: 100%;
    }
 
-main {
-   width: 100%;
-}
-
-img {
-   width: 100%;
-}
+   img {
+      width: 100%;
+   }
 
    h1 {
       font-size: large;
@@ -406,7 +441,7 @@ img {
 @media screen and (min-width:768px) {
 
    section {
-      padding-top: 40px; 
+      padding-top: 40px;
    }
 
    .card-shape {
@@ -423,7 +458,6 @@ img {
    /* Carousel */
 
    .carousel-image-size {
-      width: 100%;
       object-fit: contain;
       border-radius: 30px;
       margin-left: auto;
