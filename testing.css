@@ -1,0 +1,461 @@
+h1 {
+    font-family: var(--primary-font);
+    color: var(--secondary-font-color);
+    text-decoration: none;
+ }
+ 
+ h2,
+ h3 {
+    font-family: var(--primary-font);
+    background-color: var(--quaternary-background-color);
+    color: var(--primary-background-color);
+    font-weight: 200;
+    border-radius: 5%;
+ }
+ 
+ h4,
+ h5 {
+    text-align: center;
+    font-family: var(--primary-font);
+ }
+ 
+
+
+
+section {
+    padding-bottom: 20px;
+ }
+ 
+ .section {
+    padding-top: 60.8px;
+    margin-top: -60.8px;
+ }
+ 
+ .image-style {
+    border-radius: 30px;
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1;
+ }
+ 
+ .image-style2 {
+    border-radius: 30px;
+    width: 100%;
+    height: 550px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1;
+ }
+ 
+ .enq-btn {
+    border: dashed aquamarine 6px;
+    background-color: var(--quaternary-background-color);
+    color: aquamarine;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    font-size: large;
+    font-family: var(--primary-font);
+ }
+ 
+ .enq-btn:hover {
+    border: dashed var(--quaternary-background-color) 6px;
+    background-color: aquamarine;
+    color: var(--quaternary-background-color);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    font-size: large;
+    font-family: var(--primary-font);
+ }
+ 
+ /* Navbar Styling */
+ .navbar {
+    background-color: var(--tertiary-background-color);
+ }
+ 
+ nav {
+    font-family: var(--primary-font);
+ }
+ 
+ .nav-link {
+    font-size: larger;
+    font-family: var(--primary-font);
+ }
+ 
+ #nav-button {
+    font-size: larger;
+ }
+ 
+ a:link,
+ a:visited,
+ a:hover,
+ a:active {
+    text-decoration: none;
+ }
+ 
+ .btn-custom {
+    border-radius: 20px;
+    border: dashed white 2px;
+    background-color: var(--quaternary-background-color);
+    color: var(--secondary-font-color);
+    font-family: var(--primary-font);
+ }
+ 
+ .btn-custom:hover {
+    border-radius: 20px;
+    border: dashed 2px;
+    background-color: azure;
+    color: var(--quaternary-background-color);
+    font-family: var(--primary-font);
+ }
+ 
+ /* Carousel */
+ .carousel-image-size {
+    object-fit: contain;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ /* About Me Section */
+ #about-image-size {
+    width: 12rem;
+    border-radius: 30px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 1;
+ }
+ 
+ #about {
+    font-family: var(--primary-font);
+    color: white;
+ }
+ 
+ #about-text {
+    background-color: lightblue;
+    font-family: var(--secondary-font);
+    font-size: large;
+    font-family: var(--secondary-font);
+    text-align: start;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+ }
+ 
+ Main>section>div>div>div>i {
+    font-size: xx-large;
+ }
+ 
+ .aboutcard {
+    font-size: small;
+    font-family: var(--primary-font);
+ }
+ 
+ /* Services cards */
+ #services {
+    margin-top: 12px;
+    margin-bottom: 12px;
+ }
+ 
+ .card-text {
+    font-family: var(--secondary-font);
+ }
+ 
+ .service-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    width: 25rem;
+ }
+ 
+ #puppyprice {
+    border: 2px dashed fuchsia;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+ 
+ #dogprice {
+    border: 2px dashed aquamarine;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+ 
+ #soloprice {
+    border: 2px dashed yellow;
+    margin-bottom: 5px;
+    border-radius: 30px;
+ }
+ 
+ video {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ /* Testimonials*/
+ .testimonial-card {
+    padding-top: 12px;
+    background-color: var(--quaternary-background-color);
+    color: azure;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    justify-content: space-evenly;
+    width: 25rem;
+ }
+ 
+ .testimonial-card-body {
+    padding-top: 5px;
+ }
+ 
+ /* Enquiry Page */
+ #enq-title {
+    height: auto;
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: var(--primary-font);
+    color: var(--secondary-font-color);
+    background-color: var(--quaternary-background-color);
+    border-radius: 20px;
+    margin-top: 20px;
+ }
+ 
+ #enq-intro {
+    font-family: var(--secondary-font);
+ }
+ 
+ .form-section {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-background-color);
+    background-size: cover;
+    padding: 20px 10% 20px 10%;
+    flex-grow: 1;
+    font-family: var(--primary-font);
+    color: var(--primary-font-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+ }
+ 
+ .submit-style {
+    border-radius: 0.375rem;
+    min-height: 3rem;
+    min-width: 8rem;
+    color: var(--primary-background-color);
+    background-color: var(--quaternary-background-color);
+    border: var(--quaternary-background-color) 2px solid;
+    font-weight: 700;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ 
+ .submit-style:hover {
+    color: var(--primary-font-color);
+    background-color: var(--primary-background-color);
+    border: var(--quaternary-background-color) 6px solid;
+ }
+ 
+ /* Success Page */
+ .success {
+    height: auto;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px 5px 5px 5px;
+    margin-top: 10%;
+    background-color: var(--quaternary-background-color);
+    border-radius: 20px;
+ }
+ 
+ .text {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--primary-background-color);
+    background-size: cover;
+    padding: 20px 10% 20px 10%;
+    flex-grow: 1;
+    font-family: var(--primary-font);
+    color: var(--primary-font-color);
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ }
+ 
+ /* Footer */
+ 
+ footer {
+    background-color: var(--quaternary-background-color);
+    color: var(--secondary-font-color);
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    font-size: large;
+    width: 100%;
+ }
+ 
+ .logo-style {
+    color: var(--secondary-font-color);
+    text-decoration: none;
+    font-size: xx-large;
+ }
+ 
+ footer>div>div>div>h2 {
+    margin: 10px 150px 10px 150px;
+ }
+ 
+ 
+ footer>div>div>div>div>h2 {
+    margin: 10px 150px 10px 150px;
+ }
+ 
+ /* Media query: phones (425 and down) */
+ @media screen and (max-width: 425px) {
+    section {
+       padding-top: 30px; 
+    }
+ 
+ main {
+    width: 100%;
+ }
+ 
+ img {
+    width: 100%;
+ }
+ 
+    h1 {
+       font-size: large;
+       font-weight: 700;
+       font-stretch: expanded;
+    }
+ 
+    /* About me */
+    .card-shape {
+       padding-top: 12px;
+       padding-left: 12px;
+       padding-bottom: 12px;
+       padding-right: 12px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       height: 100%;
+    }
+ 
+ 
+    /* Services */
+    video {
+       width: 100%;
+       height: 300px;
+    }
+ 
+    /*Testimonials*/
+    .image-style {
+       display: flex;
+       width: 100%;
+       height: 170px;
+       border-radius: 30px;
+       aspect-ratio: 1;
+    }
+ 
+    .image-style2 {
+       display: flex;
+       width: 100%;
+       height: 450px;
+       border-radius: 30px;
+       aspect-ratio: 1;
+    }
+ 
+    /*success page*/
+    .text {
+       font-size: smaller;
+    }
+ 
+    /* Footer */
+    footer>div>div>div>h2 {
+       margin: 10px 0px 10px 0px;
+    }
+ 
+ 
+    footer>div>div>div>div>h2 {
+       margin: 10px 0px 10px 0px;
+    }
+ }
+ 
+ /*Media query: tablets and smaller (768) */
+ @media screen and (min-width:768px) {
+ 
+    section {
+       padding-top: 40px; 
+    }
+ 
+    .card-shape {
+       padding-top: 12px;
+       padding-left: 12px;
+       padding-bottom: 12px;
+       padding-right: 12px;
+    }
+ }
+ 
+ /*media query: larger screens (1024)*/
+ @media screen and (min-width: 1024px) {
+ 
+    /* Carousel */
+ 
+    .carousel-image-size {
+       object-fit: contain;
+       border-radius: 30px;
+       margin-left: auto;
+       margin-right: auto;
+       aspect-ratio: 1;
+    }
+ 
+    .service-card {
+       display: flex;
+       justify-content: space-around;
+       border: 2px solid var(--tertiary-background-color);
+    }
+ 
+    .about-margin {
+       margin-left: 50px;
+    }
+ 
+    #about-image-size {
+       width: 17rem;
+       border-radius: 30px;
+       object-fit: contain;
+       margin-bottom: 10px;
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       aspect-ratio: 1;
+    }
+ 
+    .form-section {
+       padding: 20px 5% 20px 5%;
+       width: 45%;
+    }
+ }

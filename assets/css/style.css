@@ -20,30 +20,19 @@
 
 /* Global Styles */
 
-main {
-   width: 100%
-}
-
-h1 {
-   font-family: var(--primary-font);
-   color: var(--secondary-font-color);
-   text-decoration: none;
-}
-
-h2,
-h3 {
+h2 {
    font-family: var(--primary-font);
    background-color: var(--quaternary-background-color);
    color: var(--primary-background-color);
    font-weight: 200;
    border-radius: 5%;
-}
+} /* Section Headings */
 
 h4,
 h5 {
    text-align: center;
    font-family: var(--primary-font);
-}
+} /* Service card and Testimonial card headings */
 
 body {
    margin-top: 68.83px;
@@ -83,9 +72,9 @@ section {
 }
 
 .enq-btn {
-   border: dashed aquamarine 6px;
+   border: dashed var(--secondary-font-color) 6px;
    background-color: var(--quaternary-background-color);
-   color: aquamarine;
+   color: var(--secondary-font-color);
    display: block;
    margin-left: auto;
    margin-right: auto;
@@ -95,8 +84,8 @@ section {
 }
 
 .enq-btn:hover {
-   border: dashed var(--quaternary-background-color) 6px;
-   background-color: aquamarine;
+   border: dashed var(--tertiary-background-color) 6px;
+   background-color: var(--primary-background-color);
    color: var(--quaternary-background-color);
    display: block;
    margin-left: auto;
@@ -107,11 +96,9 @@ section {
 }
 
 /* Navbar Styling */
-.navbar {
-   background-color: var(--tertiary-background-color);
-}
-
-nav {
+h1 {
+   color: var(--secondary-font-color);
+   text-decoration: none;
    font-family: var(--primary-font);
 }
 
@@ -121,7 +108,7 @@ nav {
 }
 
 #nav-button {
-   font-size: larger;
+   font-size: medium;
 }
 
 a:link,
@@ -129,22 +116,6 @@ a:visited,
 a:hover,
 a:active {
    text-decoration: none;
-}
-
-.btn-custom {
-   border-radius: 20px;
-   border: dashed white 2px;
-   background-color: var(--quaternary-background-color);
-   color: var(--secondary-font-color);
-   font-family: var(--primary-font);
-}
-
-.btn-custom:hover {
-   border-radius: 20px;
-   border: dashed 2px;
-   background-color: azure;
-   color: var(--quaternary-background-color);
-   font-family: var(--primary-font);
 }
 
 /* Carousel */
@@ -171,7 +142,7 @@ a:active {
 
 #about {
    font-family: var(--primary-font);
-   color: white;
+   color: var(--primary-background-color);
 }
 
 #about-text {
@@ -184,6 +155,7 @@ a:active {
    padding-top: 10px;
    padding-left: 5px;
    padding-right: 5px;
+   color: var(--secondary-background-color)
 }
 
 Main>section>div>div>div>i {
@@ -193,6 +165,17 @@ Main>section>div>div>div>i {
 .aboutcard {
    font-size: small;
    font-family: var(--primary-font);
+}
+
+.card-shape {
+   border: solid 4px var(--primary-background-color);
+   margin: 10px;
+   width: 15rem;
+   margin-left:auto;
+   margin-right: auto;
+   display:flex;
+   justify-content: center;
+   border-radius: 30px;
 }
 
 /* Services cards */
@@ -393,6 +376,7 @@ img {
       align-items: center;
       height: 100%;
    }
+
 
    /* Services */
    video {
