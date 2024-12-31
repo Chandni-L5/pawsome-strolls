@@ -387,6 +387,10 @@ img {
       font-size: smaller;
    }
 
+   .success {
+      margin-top: 50px;
+   }
+
    /* Footer */
    footer>div>div>div>h2 {
       margin: 10px 0px 10px 0px;
@@ -419,6 +423,7 @@ img {
    /* Carousel */
 
    .carousel-image-size {
+      width: 100%;
       object-fit: contain;
       border-radius: 30px;
       margin-left: auto;
