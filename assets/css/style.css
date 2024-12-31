@@ -140,11 +140,6 @@ a:active {
    aspect-ratio: 1;
 }
 
-#about {
-   font-family: var(--primary-font);
-   color: var(--primary-background-color);
-}
-
 #about-text {
    background-color: var(--quaternary-background-color);
    font-family: var(--secondary-font);
@@ -168,7 +163,7 @@ Main>section>div>div>div>i {
 }
 
 .card-shape {
-   border: solid 4px var(--primary-background-color);
+   border: dashed 4px var(--primary-background-color);
    margin: 10px;
    width: 15rem;
    margin-left:auto;
@@ -184,10 +179,6 @@ Main>section>div>div>div>i {
    margin-bottom: 12px;
 }
 
-.card-text {
-   font-family: var(--secondary-font);
-}
-
 .service-card {
    padding-top: 12px;
    background-color: var(--quaternary-background-color);
@@ -197,20 +188,10 @@ Main>section>div>div>div>i {
    width: 25rem;
 }
 
-#puppyprice {
-   border: 2px dashed fuchsia;
-   margin-bottom: 5px;
-   border-radius: 30px;
-}
-
-#dogprice {
-   border: 2px dashed aquamarine;
-   margin-bottom: 5px;
-   border-radius: 30px;
-}
-
+#puppyprice,
+#dogprice,
 #soloprice {
-   border: 2px dashed yellow;
+   border: 2px dashed var(--primary-background-color);
    margin-bottom: 5px;
    border-radius: 30px;
 }
@@ -452,7 +433,7 @@ img {
    }
 
    .about-margin {
-      margin-left: 50px;
+      margin: 10px;
    }
 
    #about-image-size {
