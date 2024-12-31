@@ -258,9 +258,9 @@ video {
    border-radius: 0.375rem;
    min-height: 3rem;
    min-width: 8rem;
-   color: var(--primary-background-color);
-   background-color: var(--quaternary-background-color);
-   border: var(--quaternary-background-color) 2px solid;
+   color: var(--primary-font-color);
+   background-color: var(--tertiary-background-color);
+   border: dashed var(--quaternary-background-color) 6px;
    font-weight: 700;
    display: block;
    margin-left: auto;
@@ -270,7 +270,7 @@ video {
 .submit-style:hover {
    color: var(--primary-font-color);
    background-color: var(--primary-background-color);
-   border: var(--quaternary-background-color) 6px solid;
+   border: dashed var(--tertiary-background-color) 6px;
 }
 
 /* Success Page */
