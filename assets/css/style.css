@@ -300,12 +300,10 @@ video {
 /* Success Page */
 .success {
    height: auto;
-   width: 60%;
+   width: 75%;
    display: block;
-   margin-left: auto;
-   margin-right: auto;
+   margin: 112px auto 0;
    padding: 5px 5px 5px 5px;
-   margin-top: 10%;
    background-color: var(--quaternary-background-color);
    border-radius: 20px;
 }
@@ -313,15 +311,16 @@ video {
 .text {
    display: flex;
    flex-direction: column;
-   background-color: var(--primary-background-color);
+   background-color: var(--quaternary-background-color);
    background-size: cover;
    padding: 20px 10% 20px 10%;
    flex-grow: 1;
    font-family: var(--primary-font);
-   color: var(--primary-font-color);
+   color: var(--secondary-background-color);
    justify-content: center;
    align-items: center;
    border-radius: 10px;
+   margin-top: 50px;
 }
 
 /* Footer */
@@ -360,20 +359,10 @@ footer>div>div>div>div>h2 {
       font-size: 20px;
    }
 
-   /*success page*/
-   .text {
-      font-size: smaller;
-   }
-
-   .success {
-      margin-top: 50px;
-   }
-
    /* Footer */
    footer>div>div>div>h2 {
       margin: 10px 0px 10px 0px;
    }
-
 
    footer>div>div>div>div>h2 {
       margin: 10px 0px 10px 0px;
@@ -386,6 +375,12 @@ footer>div>div>div>div>h2 {
    /* Enquiry Page */
    #enq-title {
       margin-top: 80px;
+   }
+
+   /* Success page */
+   .text {
+      width: 75%;
+      margin-inline: auto;
    }
 }
 
