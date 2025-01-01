@@ -24,9 +24,25 @@ The site provides information about Jenny, the services she provides and testimo
 
 ### 1.1 User Stories
 #### Client Goals 
+- To be able to view the site on a range of device sizes.
+- Proof of credentials to determine if the provider is qualified for the role.
+- An easy-to-use format for submitting enquiries or accessing contact information. 
+
 #### Potential Client Goals 
+- I want to view high quality images and engaging testimonials of previous clients.
+- I want to view the areas where the service is available.
+- I want to find their social media profiles.
+
 #### Returning Client Goals
-####
+- As a returning customer, I want access to discounts or special offers.
+- I want to be able to easily navigate across the site to find relevant sections of information.
+
+
+I have utilised the Projects function on my repository to keep track of the user stories that apply to this site. The user stories are recorded along with the acceptance criteria and tasks required to meet this goal. The stories are organised into sections of progress and allow me to keep track of where I am at throughout the development process. 
+![Project card from github](/documentation/project%20goals%201.png)
+
+In addition each goal has been catagorised in terms of priority - must haves, should haves and could haves. This allows me to target those highest in priority to ensure I can meet the necessary functions of the site. 
+![Project board from github](/documentation/project%20goals%202.png)
 
 ## 2. Design
 ### 2.1 Colour Scheme
