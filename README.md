@@ -46,9 +46,30 @@ In addition each goal has been catagorised in terms of priority - must haves, sh
 
 ## 2. Design
 ### 2.1 Colour Scheme
+I used [mycolor.space](https://mycolor.space/) to create a colour pallette to apply to the site. I applied the hex color code #5e8697 as the initial colour for the background of the page and added this to mycolor.space to generate a colour pallette. 
+
+![blocks of colours with hex color codes and color names](/documentation/color-pallette.png)
+
 ### 2.2 Typography
+[Google fonts](https://fonts.google.com/) are used to apply the following fonts:
+
+Arvo - Which is used for the page title, navigation bar items, headings and some small sections of text throughout the site.
+![Image of Arvo font(text: Pawsome Scrolls)](/documentation/arvo%20font.png) 
+
+Lato - Which is used for larger sections of text.
+![Image of Lato font(text: Pawsome Scrolls)](/documentation/lato%20font.png)
+
+[Font Awesome](https://fontawesome.com/) is used for the use of icons in various parts of the site such as the nav bar and footer.
+
 ### 2.3 Imagery
+All of the images used throughout the site were sourced from [pexels.com](https://www.pexels.com/). Images from this source are liscensed for free use. I also used [befunky.com](https://www.befunky.com/dashboard/) to resize the images.
+
 ### 2.4 Wireframes
+I used Balsamiq to create wireframes to help me visualise the layout of the site. Wireframes for mobile, tablet and desktop were created. I kept the user stories and goals in mind when designing the layout. 
+
+[Index Page Wireframe](/documentation/wireframes.jpg)
+
+[Enquiry Form and Success Wireframes](/documentation/wireframes%202.png)
 
 ## 3. Features
 ### 3.1 General Features on Each Page
