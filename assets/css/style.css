@@ -40,7 +40,9 @@ h4,
 h5 {
    text-align: center;
    font-family: var(--primary-font);
-}/* Service card and Testimonial card headings */
+}
+
+/* Service card and Testimonial card headings */
 
 body {
    /* Set to ensure the navbar doesn't block the content */
@@ -240,7 +242,7 @@ video {
    justify-content: space-evenly;
    width: 25rem;
    margin-top: 10px;
-} 
+}
 
 .testimonial-card-body {
    padding-top: 5px;
@@ -394,6 +396,11 @@ footer>div>div>div>div>h2 {
    }
 
    /* About me */
+   #about-me {
+      padding-top: 75px;
+      margin-top: -75px;
+   }
+
    .about-margin {
       margin: 10px;
    }
@@ -405,6 +412,18 @@ footer>div>div>div>div>h2 {
       margin: 0 auto 10px;
       display: block;
       aspect-ratio: 1;
+   }
+
+   /* Services */
+   #services {
+      padding-top: 75px;
+      margin-top: -75px;
+   }
+
+   /* Testimonials */
+   #testimonials {
+      padding-top: 75px;
+      margin-top: -75px;
    }
 
    /* enquiry Page */
