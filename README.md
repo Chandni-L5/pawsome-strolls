@@ -72,7 +72,79 @@ I used Balsamiq to create wireframes to help me visualise the layout of the site
 [Enquiry Form and Success Wireframes](/documentation/wireframes%202.png)
 
 ## 3. Features
-### 3.1 General Features on Each Page
+The website consists of three pages, two are accessible from the navigation bar/menu. The first page contains all the general information, the second page contains the enquiry form and the third page consists of a thank you/ confirmation of success when submitting the enquiry form on the second page. 
+
+I have used Bootstrap V5.3 throughout the website and much of the code is implemented. 
+
+### 3.1 General Features 
+#### 3.1.1 Index Page
+##### Navigation
+All three pages contain a responsive navigation bar and menu at the top of the page. I have used to Bootstrap to implement the navbar as the skeleton code. The left side consists of a logo and title of the page - Pawsome Strolls - both are selectable and navigate the user back to the homepage. The right side of the nav bar contains links to various sections of the homepage and ends with an outlined button linking to the enquiry page. 
+
+![Image of navbar in viewport 1044+](/documentation/navbarext.png)
+
+ To improve user experience and minimise overcrowding of the nav bar - on viewports of 768px and less the menu aspect of the navbar minimises into the burger button, where the menu items are accessed by selecting the icon, and on viewports of 320px and less the title of the page appears slightly smaller to fit comfortably within the navbar. The burger icon is used as its a commonly used icon for this function on other sites and provides familiarity for users.
+
+ The navbar is fixed to the top of the page and remains in position when scrolling up or down throughout any of the pages. 
+
+ ![Image of navbar in viewport 320](/documentation/navbar320.png)
+
+##### Footer 
+The footer is split into two sections, the first containing the contact details and the second containing icon links to social media. The icons have been used again to provide familiarity for the users as these are commonly used and to provide a clean and tidy footer. I have used the grid layout, code and styling taken from Bootstrap.
+
+![Image of the footer in viewport 1044](/documentation/footer1044.png)
+
+The footer is responsive between viewports greater than 1044px and less than 768px. This difference is applied to avoid overcrowding in the footer and to maintain the tidiness. 
+
+The footer is positioned at the base of the page and becomes visible once all of the main content of the page is viewed.
+
+![Image of the footer in viewport 768](/documentation/footer768.png)
+
+#### 3.1.2 Index Page Sections
+The index page contains the main content of the website and is split into sections. Some of the sections also contain an enquiry button that links the user directly to the enquiry form. The button is mirrored in style to the button in the navigation bar and also has an interactive function to make it standout from the rest of the content.
+
+##### Image Carousel 
+The main content of the website is provided on the homepage. The initial section of the page consists of a carousel of images of the service provider Jenny, in various locations walking individual and groups of dogs.
+
+ The carousel is set to autoplay and rotates images every few seconds, there are also some navigation arrows to rotate the images at will. The carousel is responsive and reduces in size as the size of the viewport reduces.
+
+[![Image from Gyazo](https://i.gyazo.com/17bbe66d9a44c43a57bf9a8c22505428.gif)](https://gyazo.com/17bbe66d9a44c43a57bf9a8c22505428)
+
+##### About Me Section
+The About Me section consists of a grid layout containing a section of text, and image and a smaller grid containing some information cards. This area is responsive and the display changes as the screen size gets smaller to ensure the content is easily viewable without overcrowding the screen. 
+
+![About me section](/documentation/about-me.png)
+
+The About Me section concludes with an 'Enquire now' button. The styling of the button mirrors the button from the navbar and is also interactive where it changes colour when hovered over. During the testing I identified that this interactivity was not functionining when hovering over the buttons. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
+[![Image from Gyazo](https://i.gyazo.com/19896f7d212908a3206e54332c2a4e63.gif)](https://gyazo.com/19896f7d212908a3206e54332c2a4e63)
+![dev chrome tools applied to the relevant section](/documentation/enq%20button%20fix.png)
+
+To fix this issue I applied z-index property to the relevant css selectors to ensure the priority of the enquiry button and hover function sat at the top.
+
+[![Image from Gyazo](https://i.gyazo.com/d7a0a1a62e4915471a41775fe399aa15.gif)](https://gyazo.com/d7a0a1a62e4915471a41775fe399aa15)
+
+##### Services
+The Services section implements a card layout using Bootstrap. Each card contains an image or video, a heading and some information text.
+
+Each card outlines the set-up of the sessions, the timing of the session and some information about what to expect. It also includes a price point in bold text and outlined to seperate from the main body of text. 
+
+The final two cards bullet point a number of locations where the service is available and also displays the offers and discounts.
+
+The locations card also contains a placeholder for a video where it can be controlled by pausing and playing and the audio from the video is muted when the page is loaded and must be un-muted manually.
+
+The whole section is reponsive and the cards will shift depending on the screen size for ease of viewing.
+
+![Services section](/documentation/services.png)
+
+The Services section is concluded again with an 'Enquire now' button in the same format.
+
+##### Testimonials
+The Testimonials section mirrors the format of the cards applied in the services section. This is to enhance user experience by matching the conformity of the page. There are 6 testimonials provided. The layout of the card consists of an image and some text. The cards are ordered by the orientation of the image within. In addition the cards are responsive and the layout shifts as the size of the screen reduces. 
+
+![Testimonials Section](/documentation/testimonials.png)
+
+#### 3.1.3 Enquiry Form Page
+#### 3.1.4 Success Page
 ### 3.2 Future Implementations
 ### 3.3 Accessibility
 

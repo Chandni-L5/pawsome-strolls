@@ -77,6 +77,7 @@
     aspect-ratio: 1;
  }
  
+ /* Enquiry Button */
  .enq-btn {
     margin: 10px auto 0;
     border: dashed var(--secondary-background-color) 6px;
@@ -86,6 +87,7 @@
     width: 10rem;
     font-size: large;
     font-family: var(--primary-font);
+    z-index: 2;
  }
  
  .enq-btn:hover {
@@ -98,6 +100,7 @@
     width: 10rem;
     font-size: large;
     font-family: var(--primary-font);
+    z-index: 2;
  }
  
  /* Navbar Styling */
@@ -205,6 +208,9 @@
  #services {
     padding-top: 15px;
     margin-top: -15px;
+    position: relative;
+    top: 0;
+    z-index: -1;
  }
  
  #services-header {
@@ -247,6 +253,9 @@
  #testimonials {
     padding-top: 15px;
     margin-top: -15px;
+    position: relative;
+    top: 0;
+    z-index: -1;
  }
  
  #testimonials-header {
