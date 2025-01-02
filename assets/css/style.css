@@ -23,7 +23,6 @@
 
 html {
    scroll-behavior: smooth;
-   /*trying to fix the nav link to section overlap */
 }
 
 h2 {
@@ -35,15 +34,11 @@ h2 {
    margin-top: 10px;
 }
 
-/* Section Headings */
-
 h4,
 h5 {
    text-align: center;
    font-family: var(--primary-font);
 }
-
-/* Service card and Testimonial card headings */
 
 body {
    /* Set to ensure the navbar doesn't block the content */
@@ -55,7 +50,7 @@ img {
 }
 
 .image-style {
-   border-radius: 30px;
+   border-radius: 50%;
    width: 100%;
    height: 170px;
    -o-object-fit: contain;
@@ -67,7 +62,7 @@ img {
 }
 
 .image-style2 {
-   border-radius: 30px;
+   border-radius: 50%;
    width: 100%;
    height: 450px;
    -o-object-fit: contain;
@@ -75,6 +70,10 @@ img {
    margin-left: auto;
    margin-right: auto;
    aspect-ratio: 1;
+}
+
+section {
+   margin-top: 20px;
 }
 
 /* Enquiry Button */
@@ -116,7 +115,6 @@ a:active {
 }
 
 .nav-enq-btn {
-   margin-inline: -4px;
    border: dashed var(--secondary-background-color) 6px;
    background-color: var(--quaternary-background-color);
    color: var(--secondary-font-color);
@@ -133,6 +131,10 @@ a:active {
 }
 
 /* Carousel */
+main {
+   margin-top: 20px;
+}
+
 .carousel-image-size {
    -o-object-fit: contain;
    object-fit: contain;
@@ -158,7 +160,7 @@ a:active {
 
 #about-image-size {
    width: 12rem;
-   border-radius: 30px;
+   border-radius: 50%;
    -o-object-fit: contain;
    object-fit: contain;
    margin-bottom: 10px;
@@ -429,6 +431,16 @@ footer>div>div>div>div>h2 {
 /*Media query: tablets (768) */
 @media screen and (min-width:768px) {
 
+/*  Global  */
+section {
+   margin-top; 30px;
+}
+
+   /* Carousel */
+main {
+   margin-top: 30px;
+}
+
    /* Enquiry Page */
    #enq-title {
       margin-top: 80px;
@@ -444,10 +456,19 @@ footer>div>div>div>div>h2 {
 /*media query: larger screens (1024)*/
 @media screen and (min-width: 1024px) {
 
+   /*  Global  */
+   section {
+      margin-top: 40px;
+   }
+
    /*Carousel*/
    .carousel-image-size {
       width: 60%;
       margin: 90px auto 0;
+   }
+
+   main {
+      margin-top: 40px;
    }
 
    /* About me */
