@@ -36,6 +36,7 @@ The site provides information about Jenny, the services she provides and testimo
 #### Returning Client Goals
 - As a returning customer, I want access to discounts or special offers.
 - I want to be able to easily navigate across the site to find relevant sections of information.
+- I want to quickly access the enquiry form to submit my query.
 
 
 I have utilised the Projects function on my repository to keep track of the user stories that apply to this site. The user stories are recorded along with the acceptance criteria and tasks required to meet this goal. The stories are organised into sections of progress and allow me to keep track of where I am at throughout the development process. 
@@ -77,7 +78,7 @@ The website consists of three pages, two are accessible from the navigation bar/
 I have used Bootstrap V5.3 throughout the website and much of the code is implemented. 
 
 ### 3.1 General Features 
-#### 3.1.1 Index Page
+#### 3.1.1 All Pages
 ##### Navigation
 All three pages contain a responsive navigation bar and menu at the top of the page. I have used to Bootstrap to implement the navbar as the skeleton code. The left side consists of a logo and title of the page - Pawsome Strolls - both are selectable and navigate the user back to the homepage. The right side of the nav bar contains links to various sections of the homepage and ends with an outlined button linking to the enquiry page. 
 
@@ -100,7 +101,7 @@ The footer is positioned at the base of the page and becomes visible once all of
 
 ![Image of the footer in viewport 768](/documentation/footer768.png)
 
-#### 3.1.2 Index Page Sections
+#### 3.1.2 Index Page
 The index page contains the main content of the website and is split into sections. Some of the sections also contain an enquiry button that links the user directly to the enquiry form. The button is mirrored in style to the button in the navigation bar and also has an interactive function to make it standout from the rest of the content.
 
 ##### Image Carousel 
@@ -110,7 +111,7 @@ The main content of the website is provided on the homepage. The initial section
 
 [![Image from Gyazo](https://i.gyazo.com/17bbe66d9a44c43a57bf9a8c22505428.gif)](https://gyazo.com/17bbe66d9a44c43a57bf9a8c22505428)
 
-##### About Me Section
+##### About Me 
 The About Me section consists of a grid layout containing a section of text, and image and a smaller grid containing some information cards. This area is responsive and the display changes as the screen size gets smaller to ensure the content is easily viewable without overcrowding the screen. 
 
 ![About me section](/documentation/about-me.png)
@@ -141,12 +142,37 @@ The Services section is concluded again with an 'Enquire now' button in the same
 ##### Testimonials
 The Testimonials section mirrors the format of the cards applied in the services section. This is to enhance user experience by matching the conformity of the page. There are 6 testimonials provided. The layout of the card consists of an image and some text. The cards are ordered by the orientation of the image within. In addition the cards are responsive and the layout shifts as the size of the screen reduces. 
 
+As per the previous section, the testimonials are reponsive and the cards will shift depending on the screen size for ease of viewing. In addition the section is again concluded with the enquiry button. I have opted to place this button at the end of each section due to one of the returning client goals, allowing the user to access the enquiry form quickly and easily. 
+
 ![Testimonials Section](/documentation/testimonials.png)
 
 #### 3.1.3 Enquiry Form Page
+The enquiry form is situated in a seperate page and can be accessed by any of the enquiry buttons on the homepage or within the navigation menu.
+
+The page is titled with a header in bold text . There is a small line of text providing instructions of how to proceed. The sections of the form has been implemented using bootstrap. The form contains fields for the name of the client, email address, contact number, client's dog's name, a dropdown of the services and a text area field for enquiry details. The user can submit the form selecting the 'Submit Form' button, which is also styled with the same theme but different colours to the enquiry button on the homepage. Users must complete each field in order for the form to be submitted and there is a tooltip that appears if a field is incomplete. 
+
+![Enquiry form page](/documentation/enq%20form.png)
+
 #### 3.1.4 Success Page
+The Success Page is accessed upon the successful completion and submission of the form on the Enquiry Page. The purpose of this page is to confirm to users that their form has been successfully submitted. Additionally, this page includes a brief thank-you message and details about what to expect next with a follow-up timeline and also provides contact details if the client wishes to submit any further information.
+
+![Success Page](/documentation/success.png)
+
 ### 3.2 Future Implementations
+Due to time constraints I was unable to action all of the user goals. As I had catagorised the stories I ensured that all of the 'must-have' tasks have been completed. 
+
+In future implementations I would create a seperate section for the Locations topic and also include an interactive map function. 
+
+I would also consider create seperate pages for each section and include a bit more content. I believe this would improve user experience as it would simplify the content on each page and they would not need to view content of the other sections at the same time on larger viewports. 
+
+Another feature I would consider adding would be a 'back to top' function on the homepage using javacript.
+
 ### 3.3 Accessibility
+
+During the designing and styling process of the website, I have kept in mind to aim to make the page as user friendly and accessible as possible. I have achieved this by: 
+- Semantic HTML 
+-Use of descriptive alt attributes on the images and videos used throughout the site. 
+-I have checked the colour scheme used on the page using [WebAIM](https://webaim.org/resources/contrastchecker/) to check the colour contrast. 
 
 ## 4. Technologies Used
 ### 4.1 Languages used 
