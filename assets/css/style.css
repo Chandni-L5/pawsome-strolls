@@ -240,6 +240,12 @@ Main>section>div>div>div>i {
    border: 2px dashed var(--primary-background-color);
    margin-bottom: 5px;
    border-radius: 30px;
+   height: 50px;
+}
+
+p#puppyprice strong {
+   position: relative; 
+   top: 8px;
 }
 
 video {
@@ -499,6 +505,15 @@ main {
    #services {
       padding-top: 75px;
       margin-top: -75px;
+   }
+p#puppyprice {
+position: relative;
+top: 23px;
+}
+
+   p#dogprice {
+      position: relative;
+      top: 23px;
    }
 
    /* Testimonials */
