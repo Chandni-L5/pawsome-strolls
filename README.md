@@ -173,10 +173,33 @@ During the designing and styling process of the website, I have kept in mind to 
 - Semantic HTML 
 -Use of descriptive alt attributes on the images and videos used throughout the site. 
 -I have checked the colour scheme used on the page using [WebAIM](https://webaim.org/resources/contrastchecker/) to check the colour contrast. 
+![screenshot of colour contrast check](/documentation/color%20contrast.png)
+-I have also used the chrome extension [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to also consider the visuals of the page and contrast between the content for users with visual impairments.
+- Added aria-labels to allow screen readers to understand the current pages.
+- Use of a Sans Serif font alternative.
+-Use of the hover function on all buttons across the site and use of a uniform style to make it clear that this is a button.
+[![Image from Gyazo](https://i.gyazo.com/d7a0a1a62e4915471a41775fe399aa15.gif)](https://gyazo.com/d7a0a1a62e4915471a41775fe399aa15))
 
 ## 4. Technologies Used
 ### 4.1 Languages used 
+- HTML
+- CSS
+- Javascript (via Bootstrap version 5.3)
+
 ### 4.2 Frameworks, Libraries & Programs Used
+- Balsamiq - to create wireframes 
+- Git - For version control and deployment 
+- Github - used as the code editor and save files
+- Bootstrap version 5.3 - Code for the navigation bar, carousel, cards and form have been used and amended for use. CSS styling was also used and modified from Bootstrap using the documentation and some JavaScript has been applied to assist the functionality of the bootstrap code and CSS
+- Google Fonts -  to implement the fonts used in the site
+- Font Awesome - for icons and logos used in the site
+- Chrome dev tools - To test and troubleshoot various features and also test responsiveness of the pages 
+- [Pexels.com](https://www.pexels.com/) - To source the images used in the site
+- [Befunky](https://www.befunky.com/dashboard/) - to resize and alter the images
+- [Tinypng](https://tinypng.com/) - To compress images
+- [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - to convert images to different file types. 
+- [Favicon.io](https://favicon.io/emoji-favicons/) - to create an emoji favicon
+- [Amiresponsive](https://ui.dev/amiresponsive) - to show the website on a range of device screens
 
 ## 5. Deployment & Local Development 
 ### 5.1 Deployment 
