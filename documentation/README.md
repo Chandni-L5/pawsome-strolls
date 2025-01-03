@@ -116,13 +116,7 @@ The About Me section consists of a grid layout containing a section of text, and
 
 ![About me section](/documentation/about-me.png)
 
-The About Me section concludes with an 'Enquire now' button. The styling of the button mirrors the button from the navbar and is also interactive where it changes colour when hovered over. During the testing I identified that this interactivity was not functionining when hovering over the buttons. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
-[![Image from Gyazo](https://i.gyazo.com/19896f7d212908a3206e54332c2a4e63.gif)](https://gyazo.com/19896f7d212908a3206e54332c2a4e63)
-![dev chrome tools applied to the relevant section](/documentation/enq%20button%20fix.png)
-
-To fix this issue I applied z-index property to the relevant css selectors to ensure the priority of the enquiry button and hover function sat at the top.
-
-[![Image from Gyazo](https://i.gyazo.com/d7a0a1a62e4915471a41775fe399aa15.gif)](https://gyazo.com/d7a0a1a62e4915471a41775fe399aa15)
+The About Me section concludes with an 'Enquire now' button. The styling of the button mirrors the button from the navbar and is also interactive where it changes colour when hovered over. 
 
 ##### Services
 The Services section implements a card layout using Bootstrap. Each card contains an image or video, a heading and some information text.
@@ -201,12 +195,62 @@ During the designing and styling process of the website, I have kept in mind to 
 - [Favicon.io](https://favicon.io/emoji-favicons/) - to create an emoji favicon
 - [Amiresponsive](https://ui.dev/amiresponsive) - to show the website on a range of device screens
 
-## 5. Deployment & Local Development 
-### 5.1 Deployment 
-### 5.2 Local Development 
+## 5. Deployment  
+
+The website is deployed using GitHub Pages. To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project - [Pawsome Strolls](https://github.com/Chandni-L5/pawsome-strolls)
+2. Click the settings button.
+3. Select pages in the left hand navigation menu.
+4. From the source dropdown select 'Deploy from a branch' and in the branch dropdown select 'main' and press save.
+5. The site has now been deployed.
+6. When returning to the code page in the repository a Deployments section will appear in the right side column - this process may take a few minutes before the site goes live. The deployed sight can be accessed via this link.
 
 ## 6. Testing
 ### 6.1 Manual Testing
+Testing the site has been an ongoing process throughout the development of the website. I have used Chrome dev tools to review and troubleshoot issues as build has progressed.  
+
+A number of issues were identified throughout this process and fixed simultaenously: 
+
+- Initially when I downloaded the images to be used on the site, I added these straight to the website however on reviewing I realised that the images were all different sizes and this created issues with the functioning of the carousel and also just the general layout of the page. 
+
+After discussing with my mentor Mortiz Wach I resized the images to an equal size. In addition with the support of tutor assistance I was advised to move some of the styling which was included in the bootstrap to the CSS stylesheet and apply a 100% variable to the width of every image, in order for it to fit within its container. This resolved the issues with the functionality of the carousel where the image was enlarging when moving to the next image.
+
+- When creating the mini cards within the the 'about me' section, I was struggling to centre the content within the `div` as I was unsure how to target it.
+
+![screenshots of mini card](/documentation/card%20issue.png) ![screenshots of mini card](/documentation/card%20issue%202.png)
+
+ I requested some assistance from a fellow student Ivan Kimpl who advised me to apply a `flex` variable to the `display` property and target the `col` class, I could then apply other properties to ce`nter the content and fix this issue.
+
+- The navigation bar would dissappear when scrolling down to the content. To fix this I reviewed the Bootstrap documentation, to find out if there was already a selector in place to add to the element and identified that by added the class `fixed` I would be able to fix the nav bar to the top of the page regardless of the where on the rest of the page I was at. 
+
+- By fixing the navbar this created another issue. The navbar now overlapped the carousel at the top of the homepage and when automatically scrolling to the nav-links the navbar would overlap the header of the sections of the homepage. 
+
+I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occuring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other collegues on slack. Working togethor with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
+
+- When manually checking the navlinks from the enquiry page and success page, I identified that when selecting the link from a mobile viewport the link would not land at the correct place above the header. I checked all of the code and compared this using [diffchecker](https://www.diffchecker.com/) however could not identify any reason why this was not working. 
+
+I discussed this issue again with Vernell Clarke and asked him to manually check and test out the site to see if the issue was also occuring from his end. We identified that this issue was only occuring in Google Chrome, however when testing on Safari and Mozilla Firefox that the site was functioning as expected and so I deduced that there may be some bug with the chrome dev tool when viewing the site in this viewport. 
+
+- When scrolling through the homepage, I decided to add a `border-radius` to the images on the page. This was implemented to apply conformity with the other shapes of the cards on the page.
+
+- I also identified that some of the price points on the services cards were not of identical shape and size. I implemented some further styling to the size of this section. As the 'Puppy Walks' card only contains 1 line of text, the text automatically positions at the top line of that shape.
+![screenshot of services prior to fix](/documentation/services%20prefix.png)
+
+ To enhance the visual appearance of this card, I specifically targeted the `id` and the `strong` element to isolate the text. I applied a `position: relative` property and adjusted the `top` value to refine its positioning. I used dev chrome tools to adjust the `px` to ensure the text was in the correct position. Finally I checked this through different viewports and applied adjustments in the `media query`.
+
+ ![screenshot of services post fix](/documentation/services%20fixed.png)
+
+- During the final testing of the site, I identified that the hover function of the 'enquire now' button was not functionining and when selecting the button there was no proceeding action. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
+[![Image from Gyazo](https://i.gyazo.com/19896f7d212908a3206e54332c2a4e63.gif)](https://gyazo.com/19896f7d212908a3206e54332c2a4e63)
+![dev chrome tools applied to the relevant section](/documentation/enq%20button%20fix.png)
+
+To fix this issue I applied z-index property to the relevant css selectors to ensure the priority of the enquiry button and hover function sat at the top.
+
+[![Image from Gyazo](https://i.gyazo.com/d7a0a1a62e4915471a41775fe399aa15.gif)](https://gyazo.com/d7a0a1a62e4915471a41775fe399aa15)
+
+
 ### 6.2 Lighthouse
 ### 6.3 Validation
 
