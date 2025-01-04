@@ -6,10 +6,10 @@
  Result: The site is responsive on a number of browsers and devices. 
 
 ##### Goal: Proof of credentials to determine if the provider is qualified for the role.
-Result: This goal has not been achieved within the content of the 'About Me' section. On future implementations I would include a seperate section or some imagery to account for the qualifications of the service provider.
+Result: This goal has not been achieved within the content of the 'About Me' section. On future implementations I would include a separate section or some imagery to account for the qualifications of the service provider.
 
 ##### Goal: An easy-to-use format for submitting enquiries or accessing contact information. 
-Result: Simple and straight forward form provided on a seperate page and once submitted successfully the user is directed to a page that displays a thank you message confirming the form is submitted.
+Result: Simple and straightforward form provided on a separate page and once submitted successfully the user is directed to a page that displays a thank you message confirming the form is submitted.
 
 
 #### Potential Client Goals 
@@ -17,14 +17,14 @@ Result: Simple and straight forward form provided on a seperate page and once su
 Result: The website contains a number of high quality images and a dedicated section displaying testimonials.
 
 ##### Goal: I want to view the areas where the service is available.
-Result: The locations covered are displayed within the services section. On a future implementation I would consider making a seperate section or page and display the locations covered including a map or some kind of visual aid.
+Result: The locations covered are displayed within the services section. On a future implementation I would consider making a separate section or page and display the locations covered including a map or some kind of visual aid.
 
 ##### Goal: I want to find their social media profiles.
-Result: The links to social media are located in the footer of the page and once selected open the site on a seperate tab.
+Result: The links to social media are located in the footer of the page and once selected open the site on a separate tab.
 
 #### Returning Client Goals
 ##### Goal: As a returning customer, I want access to discounts or special offers.
-Result: discounts and offers can be found in the services section. In future implementations I would consider creating a seperate link to the discounts and offers from the navigation menu or alternatively have the services section displayed on a seperate page and to have the discounts and offers card displayed more prominently.
+Result: discounts and offers can be found in the services section. In future implementations I would consider creating a separate link to the discounts and offers from the navigation menu or alternatively have the services section displayed on a separate page and to have the discounts and offers card displayed more prominently.
 
 ##### Goal: I want to be able to easily navigate across the site to find relevant sections of information.
 Result: The website has a fully functioning navigation bar that is visible at all times whilst browsing the page. When a menu item is selected, the page automatically scrolls to the relevant section or to the relevant page. 
@@ -35,7 +35,7 @@ Result: The enquiry form is accessible from a number of locations throughout the
 ### 6.2 Fixing Bugs
 Testing the site has been an ongoing process throughout the development of the website. I have used Chrome dev tools to review and troubleshoot issues as build has progressed.  
 
-A number of issues were identified throughout this process and fixed simultaenously: 
+A number of issues were identified throughout this process and fixed simultaneously: 
 
 - Initially when I downloaded the images to be used on the site, I added these straight to the website however on reviewing I realised that the images were all different sizes and this created issues with the functioning of the carousel and also just the general layout of the page. 
 
@@ -45,17 +45,17 @@ After discussing with my mentor Mortiz Wach I resized the images to an equal siz
 
 ![screenshots of mini card](/documentation/card%20issue.png) ![screenshots of mini card](/documentation/card%20issue%202.png)
 
- I requested some assistance from a fellow student Ivan Kimpl who advised me to apply a `flex` variable to the `display` property and target the `col` class, I could then apply other properties to ce`nter the content and fix this issue.
+ I requested some assistance from a fellow student Ivan Kimpl who advised me to apply a `flex` variable to the `display` property and target the `col` class, I could then apply other properties to center the content and fix this issue.
 
-- The navigation bar would dissappear when scrolling down to the content. To fix this I reviewed the Bootstrap documentation, to find out if there was already a selector in place to add to the element and identified that by added the class `fixed` I would be able to fix the nav bar to the top of the page regardless of the where on the rest of the page I was at. 
+- The navigation bar would disappear when scrolling down to the content. To fix this I reviewed the Bootstrap documentation, to find out if there was already a selector in place to add to the element and identified that by added the class `fixed` I would be able to fix the nav bar to the top of the page regardless of the where on the rest of the page I was at. 
 
 - By fixing the navbar this created another issue. The navbar now overlapped the carousel at the top of the homepage and when automatically scrolling to the nav-links the navbar would overlap the header of the sections of the homepage. 
 
-I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occuring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other collegues on slack. Working togethor with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
+I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occuring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other colleagues on slack. Working together with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
 
 - When manually checking the navlinks from the enquiry page and success page, I identified that when selecting the link from a mobile viewport the link would not land at the correct place above the header. I checked all of the code and compared this using [diffchecker](https://www.diffchecker.com/) however could not identify any reason why this was not working. 
 
-I discussed this issue again with Vernell Clarke and asked him to manually check and test out the site to see if the issue was also occuring from his end. We identified that this issue was only occuring in Google Chrome, however when testing on Safari and Mozilla Firefox that the site was functioning as expected and so I deduced that there may be some bug with the chrome dev tool when viewing the site in this viewport. 
+I discussed this issue again with Vernell Clarke and asked him to manually check and test out the site to see if the issue was also occurring from his end. We identified that this issue was only occurring in Google Chrome, however when testing on Safari and Mozilla Firefox that the site was functioning as expected and so I deduced that there may be some bug with the chrome dev tool when viewing the site in this viewport. 
 
 - When scrolling through the homepage, I decided to add a `border-radius` to the images on the page. This was implemented to apply conformity with the other shapes of the cards on the page.
 
@@ -66,7 +66,7 @@ I discussed this issue again with Vernell Clarke and asked him to manually check
 
  ![screenshot of services post fix](/documentation/services%20fixed.png)
 
-- During the final testing of the site, I identified that the hover function of the 'enquire now' button was not functionining and when selecting the button there was no proceeding action. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
+- During the final testing of the site, I identified that the hover function of the 'enquire now' button was not functioning and when selecting the button there was no proceeding action. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
 [![Image from Gyazo](https://i.gyazo.com/19896f7d212908a3206e54332c2a4e63.gif)](https://gyazo.com/19896f7d212908a3206e54332c2a4e63)
 ![dev chrome tools applied to the relevant section](/documentation/enq%20button%20fix.png)
 
@@ -86,7 +86,7 @@ The browsers used to test the site include:
 - Safari
 - Mozilla Firefox 
 
-Additional testing was also carried out by a collegue on a variety of browsers on a laptop and they had reported no issues. 
+Additional testing was also carried out by a colleague on a variety of browsers on a laptop and they had reported no issues. 
 
 ![Screen shot of testing table](/documentation/testing.png) 
 [Click here to enlarge the above image](/documentation/testing.png)
@@ -110,10 +110,30 @@ I was able to improve the above score by resizing the images on the page and cha
 
 On final checks the scores are greatly improved for both desktop and mobile options. 
 
-Mobile:
-![Lighthouse improved results](/documentation/lighthouse%20after.png)
-
-Desktop:
-
+![Lighthouse improved results desktop](/documentation/lighthouse%20improved.png)
 
 ### 6.5 Validation
+#### 6.5.1 W3C HTML and CSS 
+[W3C](https://validator.w3.org/) validator has been used to check the HTML on each of the pages of the website and the css stylesheet.
+
+##### HTML
+[index.html](https://chandni-l5.github.io/pawsome-strolls/index.html) 
+The initial check highlighted a few issues with the code. These issues have now been addressed.
+![error in html validator](/documentation/html%20checker.jpg)
+On final check, only one issue remained: 
+![final error in html validator](/documentation/html%20index%20validator.png)
+As the project requirements do not require an actual video at this stage the `src` in this line is left blank.
+
+[enquiry.html](https://chandni-l5.github.io/pawsome-strolls/enquiry.html)
+The HTML code of the enquiry page passed successfully. 
+![html validation for enquiry page](/documentation/html%20validator%20success.png)
+
+[success.html](https://chandni-l5.github.io/pawsome-strolls/success.html)
+The HTML code of the success page passed successfully.
+![html validation for success page](/documentation/html%20validator%20success.png)
+
+##### CSS 
+![successful css validator](/documentation/css%20validator.png)
+
+#### 6.5.2 Autoprefixer CSS
+I have used [Autoprefixer](https://autoprefixer.github.io/) to add vendor prefixes to the CSS.

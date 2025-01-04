@@ -1,6 +1,6 @@
 # **Pawsome Strolls**
 
-The Pawsome Scrolls site is designed as a responsive website allowing users to access it on various devices ranging from a mobile phone to a desktop screen. 
+The Pawsome Strolls site is designed as a responsive website allowing users to access it on various devices ranging from a mobile phone to a desktop screen. 
 
  The site is aimed to target people who own dogs and are looking to hire someone to care for their pet and take them out for exercise. The various sections on the page allow the potential customer to find out about the services offered and formats in which to contact the service provider. 
 
@@ -42,12 +42,12 @@ The site provides information about Jenny, the services she provides and testimo
 I have utilised the Projects function on my repository to keep track of the user stories that apply to this site. The user stories are recorded along with the acceptance criteria and tasks required to meet this goal. The stories are organised into sections of progress and allow me to keep track of where I am at throughout the development process. 
 ![Project card from github](/documentation/project%20goals%201.png)
 
-In addition each goal has been catagorised in terms of priority - must haves, should haves and could haves. This allows me to target those highest in priority to ensure I can meet the necessary functions of the site. 
+In addition each goal has been catagorized in terms of priority - must haves, should haves and could haves. This allows me to target those highest in priority to ensure I can meet the necessary functions of the site. 
 ![Project board from github](/documentation/project%20goals%202.png)
 
 ## 2. Design
 ### 2.1 Colour Scheme
-I used [mycolor.space](https://mycolor.space/) to create a colour pallette to apply to the site. I applied the hex color code #5e8697 as the initial colour for the background of the page and added this to mycolor.space to generate a colour pallette. 
+I used [mycolor.space](https://mycolor.space/) to create a colour palette to apply to the site. I applied the hex color code #5e8697 as the initial colour for the background of the page and added this to mycolor.space to generate a colour pallette. 
 
 ![blocks of colours with hex color codes and color names](/documentation/color-pallette.png)
 
@@ -63,7 +63,7 @@ Lato - Which is used for larger sections of text.
 [Font Awesome](https://fontawesome.com/) is used for the use of icons in various parts of the site such as the nav bar and footer.
 
 ### 2.3 Imagery
-All of the images used throughout the site were sourced from [pexels.com](https://www.pexels.com/). Images from this source are liscensed for free use. I also used [befunky.com](https://www.befunky.com/dashboard/) to resize the images.
+All of the images used throughout the site were sourced from [pexels.com](https://www.pexels.com/). Images from this source are licensed for free use. I also used [befunky.com](https://www.befunky.com/dashboard/) to resize the images.
 
 ### 2.4 Wireframes
 I used Balsamiq to create wireframes to help me visualise the layout of the site. Wireframes for mobile, tablet and desktop were created. I kept the user stories and goals in mind when designing the layout. 
@@ -121,13 +121,13 @@ The About Me section concludes with an 'Enquire now' button. The styling of the 
 ##### Services
 The Services section implements a card layout using Bootstrap. Each card contains an image or video, a heading and some information text.
 
-Each card outlines the set-up of the sessions, the timing of the session and some information about what to expect. It also includes a price point in bold text and outlined to seperate from the main body of text. 
+Each card outlines the set-up of the sessions, the timing of the session and some information about what to expect. It also includes a price point in bold text and outlined to separate from the main body of text. 
 
 The final two cards bullet point a number of locations where the service is available and also displays the offers and discounts.
 
 The locations card also contains a placeholder for a video where it can be controlled by pausing and playing and the audio from the video is muted when the page is loaded and must be un-muted manually.
 
-The whole section is reponsive and the cards will shift depending on the screen size for ease of viewing.
+The whole section is responsive and the cards will shift depending on the screen size for ease of viewing.
 
 ![Services section](/documentation/services.png)
 
@@ -136,12 +136,12 @@ The Services section is concluded again with an 'Enquire now' button in the same
 ##### Testimonials
 The Testimonials section mirrors the format of the cards applied in the services section. This is to enhance user experience by matching the conformity of the page. There are 6 testimonials provided. The layout of the card consists of an image and some text. The cards are ordered by the orientation of the image within. In addition the cards are responsive and the layout shifts as the size of the screen reduces. 
 
-As per the previous section, the testimonials are reponsive and the cards will shift depending on the screen size for ease of viewing. In addition the section is again concluded with the enquiry button. I have opted to place this button at the end of each section due to one of the returning client goals, allowing the user to access the enquiry form quickly and easily. 
+As per the previous section, the testimonials are responsive and the cards will shift depending on the screen size for ease of viewing. In addition the section is again concluded with the enquiry button. I have opted to place this button at the end of each section due to one of the returning client goals, allowing the user to access the enquiry form quickly and easily. 
 
 ![Testimonials Section](/documentation/testimonials.png)
 
 #### 3.1.3 Enquiry Form Page
-The enquiry form is situated in a seperate page and can be accessed by any of the enquiry buttons on the homepage or within the navigation menu.
+The enquiry form is situated in a separate page and can be accessed by any of the enquiry buttons on the homepage or within the navigation menu.
 
 The page is titled with a header in bold text . There is a small line of text providing instructions of how to proceed. The sections of the form has been implemented using bootstrap. The form contains fields for the name of the client, email address, contact number, client's dog's name, a dropdown of the services and a text area field for enquiry details. The user can submit the form selecting the 'Submit Form' button, which is also styled with the same theme but different colours to the enquiry button on the homepage. Users must complete each field in order for the form to be submitted and there is a tooltip that appears if a field is incomplete. 
 
@@ -155,11 +155,11 @@ The Success Page is accessed upon the successful completion and submission of th
 ### 3.2 Future Implementations
 Due to time constraints I was unable to action all of the user goals. As I had catagorised the stories I ensured that all of the 'must-have' tasks have been completed. 
 
-In future implementations I would create a seperate section for the Locations topic and also include an interactive map function. 
+In future implementations I would create a separate section for the Locations topic and also include an interactive map function. 
 
-I would also consider create seperate pages for each section and include a bit more content. I believe this would improve user experience as it would simplify the content on each page and they would not need to view content of the other sections at the same time on larger viewports. 
+I would also consider create separate pages for each section and include a bit more content. I believe this would improve user experience as it would simplify the content on each page and they would not need to view content of the other sections at the same time on larger viewports. 
 
-Another feature I would consider adding would be a 'back to top' function on the homepage using javacript.
+Another feature I would consider adding would be a 'back to top' function on the homepage using JavaScript.
 
 ### 3.3 Accessibility
 
@@ -183,7 +183,7 @@ During the designing and styling process of the website, I have kept in mind to 
 ### 4.2 Frameworks, Libraries & Programs Used
 - Balsamiq - to create wireframes 
 - Git - For version control and deployment 
-- Github - used as the code editor and save files
+- GitHub - used as the code editor and save files
 - Bootstrap version 5.3 - Code for the navigation bar, carousel, cards and form have been used and amended for use. CSS styling was also used and modified from Bootstrap using the documentation and some JavaScript has been applied to assist the functionality of the bootstrap code and CSS
 - Google Fonts -  to implement the fonts used in the site
 - Font Awesome - for icons and logos used in the site
@@ -199,7 +199,7 @@ During the designing and styling process of the website, I have kept in mind to 
 
 The website is deployed using GitHub Pages. To Deploy the site using GitHub Pages:
 
-1. Login (or signup) to Github.
+1. Login (or signup) to GitHub.
 2. Go to the repository for this project - [Pawsome Strolls](https://github.com/Chandni-L5/pawsome-strolls)
 2. Click the settings button.
 3. Select pages in the left hand navigation menu.
@@ -212,7 +212,43 @@ Please refer to [testing.md](/documentation/testing.md) file for all the testing
 
 ## 7. Credits
 ### 7.1 Code Used
-### 7.2 Content
-### 7.3 Media
-### 7.4 Acknowledgments
+- [Bootstrap](https://getbootstrap.com/) - as referenced in this readme, Bootstrap has been used to implement a number of elements in the page. 
 
+### 7.2 Content
+- [Chatgpt](https://chatgpt.com/) - has been utilised to create some of the text throughout the website. 
+- [mycolor.space](https://mycolor.space/) - referred to in 2.1
+- [Google fonts](https://fonts.google.com/) - referred to in 2.2 
+- [Favicon.io](https://favicon.io/emoji-favicons/) - to create an emoji favicon
+
+
+### 7.3 Media
+- [Font Awesome](https://fontawesome.com/) - referred to in 2.2
+- [befunky.com](https://www.befunky.com/dashboard/) - referred to in 2.3 
+- [pexels.com](https://www.pexels.com/) - referred to in 2.3
+- [Tinypng](https://tinypng.com/) - referred to in 4.2
+- [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - to convert images to different file types. 
+
+### 7.4 Documentation and testing
+I have used the following sources to help guide and structure the documentation of this project.
+- [The love running readme template](https://github.com/Code-Institute-Solutions/readme-template?tab=readme-ov-file) 
+- [A markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables)
+- [Kera Cudmore's readme template](https://github.com/kera-cudmore/readme-examples/blob/main/milestone1-readme.md) - shared on slack
+- [Diffchecker](https://www.diffchecker.com/)
+- [W3C](https://validator.w3.org/)
+-[Autoprefixer](https://autoprefixer.github.io/)
+- Gyazo plugin- to create gifs to use in the testing documentation
+- [WebAIM](https://webaim.org/resources/contrastchecker/) - referred to in 3.3
+- [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - referred to in 3.3
+- [Amiresponsive](https://ui.dev/amiresponsive) - to show the website on a range of device screens
+
+
+### 7.5 Acknowledgments 
+I would like to acknowledge the following people who have helped me along the way in completion of this project. 
+
+- Vernell Clarke - Alumni student at code institute who contributed valuable time to help teach me how to use various dev tools and troubleshoot a number of issues on the site. Vernell also took time to test out the site on various browsers.
+- Moritz Wach - my Code Institute Mentor who made himself available during the busy Christmas period to help advise me on my progress.
+- Oisin at tutor support who assisted me with some troubleshooting. 
+- Ivan Kimpl - who took time to help me with quick questions when I was unsure of how to target a specific class. 
+- Lizzy_4p and Naveed_5p - who took time to respond to my peer code review request on slack.
+- Tom, Prashant and Suraj - family and friends who helped to test out the site on various devices.
+- Benji - My dog who inspired me and kept me company throughout this project.
