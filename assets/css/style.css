@@ -420,8 +420,17 @@ footer>div>div>div>div>h2 {
 
 /* Media query: phones (425 and down) */
 @media screen and (max-width: 425px) {
+
+   /* Global */
    h1 {
       font-size: 20px;
+   }
+
+   /* Carousel */
+   .carousel-control-next, 
+   .carousel-control-prev {
+      bottom: -90px;
+      width: 10%;
    }
 
    /* Footer */
@@ -447,6 +456,12 @@ main {
    margin-top: 30px;
 }
 
+.carousel-control-next, 
+   .carousel-control-prev {
+      bottom: -90px;
+      width: 10%;
+   }
+
    /* Enquiry Page */
    #enq-title {
       margin-top: 80px;
@@ -471,6 +486,12 @@ main {
    .carousel-image-size {
       width: 60%;
       margin: 90px auto 0;
+   }
+
+   .carousel-control-next, 
+   .carousel-control-prev {
+      bottom: -90px;
+      width: 45%;
    }
 
    main {
