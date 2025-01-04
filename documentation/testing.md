@@ -1,0 +1,119 @@
+## 6. Testing
+
+### 6.1 Testing User Stories
+#### Testing Client Goals 
+##### Goal: To be able to view the site on a range of device sizes.
+ Result: The site is responsive on a number of browsers and devices. 
+
+##### Goal: Proof of credentials to determine if the provider is qualified for the role.
+Result: This goal has not been achieved within the content of the 'About Me' section. On future implementations I would include a seperate section or some imagery to account for the qualifications of the service provider.
+
+##### Goal: An easy-to-use format for submitting enquiries or accessing contact information. 
+Result: Simple and straight forward form provided on a seperate page and once submitted successfully the user is directed to a page that displays a thank you message confirming the form is submitted.
+
+
+#### Potential Client Goals 
+##### Goal: I want to view high quality images and engaging testimonials of previous clients. 
+Result: The website contains a number of high quality images and a dedicated section displaying testimonials.
+
+##### Goal: I want to view the areas where the service is available.
+Result: The locations covered are displayed within the services section. On a future implementation I would consider making a seperate section or page and display the locations covered including a map or some kind of visual aid.
+
+##### Goal: I want to find their social media profiles.
+Result: The links to social media are located in the footer of the page and once selected open the site on a seperate tab.
+
+#### Returning Client Goals
+##### Goal: As a returning customer, I want access to discounts or special offers.
+Result: discounts and offers can be found in the services section. In future implementations I would consider creating a seperate link to the discounts and offers from the navigation menu or alternatively have the services section displayed on a seperate page and to have the discounts and offers card displayed more prominently.
+
+##### Goal: I want to be able to easily navigate across the site to find relevant sections of information.
+Result: The website has a fully functioning navigation bar that is visible at all times whilst browsing the page. When a menu item is selected, the page automatically scrolls to the relevant section or to the relevant page. 
+
+##### Goal: I want to quickly access the enquiry form to submit my query.
+Result: The enquiry form is accessible from a number of locations throughout the site and the button is highlighted with a unique style to make it stand out from the rest of the content. 
+
+### 6.2 Fixing Bugs
+Testing the site has been an ongoing process throughout the development of the website. I have used Chrome dev tools to review and troubleshoot issues as build has progressed.  
+
+A number of issues were identified throughout this process and fixed simultaenously: 
+
+- Initially when I downloaded the images to be used on the site, I added these straight to the website however on reviewing I realised that the images were all different sizes and this created issues with the functioning of the carousel and also just the general layout of the page. 
+
+After discussing with my mentor Mortiz Wach I resized the images to an equal size. In addition with the support of tutor assistance I was advised to move some of the styling which was included in the bootstrap to the CSS stylesheet and apply a 100% variable to the width of every image, in order for it to fit within its container. This resolved the issues with the functionality of the carousel where the image was enlarging when moving to the next image.
+
+- When creating the mini cards within the the 'about me' section, I was struggling to centre the content within the `div` as I was unsure how to target it.
+
+![screenshots of mini card](/documentation/card%20issue.png) ![screenshots of mini card](/documentation/card%20issue%202.png)
+
+ I requested some assistance from a fellow student Ivan Kimpl who advised me to apply a `flex` variable to the `display` property and target the `col` class, I could then apply other properties to ce`nter the content and fix this issue.
+
+- The navigation bar would dissappear when scrolling down to the content. To fix this I reviewed the Bootstrap documentation, to find out if there was already a selector in place to add to the element and identified that by added the class `fixed` I would be able to fix the nav bar to the top of the page regardless of the where on the rest of the page I was at. 
+
+- By fixing the navbar this created another issue. The navbar now overlapped the carousel at the top of the homepage and when automatically scrolling to the nav-links the navbar would overlap the header of the sections of the homepage. 
+
+I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occuring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other collegues on slack. Working togethor with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
+
+- When manually checking the navlinks from the enquiry page and success page, I identified that when selecting the link from a mobile viewport the link would not land at the correct place above the header. I checked all of the code and compared this using [diffchecker](https://www.diffchecker.com/) however could not identify any reason why this was not working. 
+
+I discussed this issue again with Vernell Clarke and asked him to manually check and test out the site to see if the issue was also occuring from his end. We identified that this issue was only occuring in Google Chrome, however when testing on Safari and Mozilla Firefox that the site was functioning as expected and so I deduced that there may be some bug with the chrome dev tool when viewing the site in this viewport. 
+
+- When scrolling through the homepage, I decided to add a `border-radius` to the images on the page. This was implemented to apply conformity with the other shapes of the cards on the page.
+
+- I also identified that some of the price points on the services cards were not of identical shape and size. I implemented some further styling to the size of this section. As the 'Puppy Walks' card only contains 1 line of text, the text automatically positions at the top line of that shape.
+![screenshot of services prior to fix](/documentation/services%20prefix.png)
+
+ To enhance the visual appearance of this card, I specifically targeted the `id` and the `strong` element to isolate the text. I applied a `position: relative` property and adjusted the `top` value to refine its positioning. I used dev chrome tools to adjust the `px` to ensure the text was in the correct position. Finally I checked this through different viewports and applied adjustments in the `media query`.
+
+ ![screenshot of services post fix](/documentation/services%20fixed.png)
+
+- During the final testing of the site, I identified that the hover function of the 'enquire now' button was not functionining and when selecting the button there was no proceeding action. Using dev chrome tools, I identified that the margin of the div below the button was creating an overlap and the button was layered below this invisible div. 
+[![Image from Gyazo](https://i.gyazo.com/19896f7d212908a3206e54332c2a4e63.gif)](https://gyazo.com/19896f7d212908a3206e54332c2a4e63)
+![dev chrome tools applied to the relevant section](/documentation/enq%20button%20fix.png)
+
+To fix this issue I applied z-index property to the relevant css selectors to ensure the priority of the enquiry button and hover function sat at the top.
+
+[![Image from Gyazo](https://i.gyazo.com/d7a0a1a62e4915471a41775fe399aa15.gif)](https://gyazo.com/d7a0a1a62e4915471a41775fe399aa15)
+
+### 6.3 Manual Testing 
+
+#### Site function testing
+Full testing has been completed on the following devices: 
+- Laptop: Macbook Air M3 2024
+- Mobile: iPhone 15 
+
+The browsers used to test the site include:
+- Google Chrome
+- Safari
+- Mozilla Firefox 
+
+Additional testing was also carried out by a collegue on a variety of browsers on a laptop and they had reported no issues. 
+
+![Screen shot of testing table](/documentation/testing.png) 
+[Click here to enlarge the above image](/documentation/testing.png)
+
+Most of the testing of the various functions of the site were successful! One issue has been noted when viewing the site via Mozilla Firefox - the carousel only plays automatically when the browser is not selected on the laptop viewport. However on a different occasion when checking again I have identified that the carousel is functioning on this browser and no change is required to be implemented.
+
+I have also submitted the site for peer review on slack and one tester identified that there was an issue with the size and layout of the mini-cards of the 'About Me' section on their laptop.
+
+![screen shot of image provided by a tester from peer review](/documentation/peer%20review.png)
+
+I was unable to replicate this issue on my devices and so unable to resolve. 
+
+### 6.4 Lighthouse
+I have used Lighthouse within Chrome dev tools to test the performance, accessibility and best practices. I have checked both both device types of Mobile and Desktop.
+
+![Lighthouse results](/documentation/lighthouse%20poor.png)
+![Lighthouse details of poor results](/documentation/lighthouse%20issues.jpg)
+On initial checks the performance levels were slightly low. 
+
+I was able to improve the above score by resizing the images on the page and changed them to webp files. 
+
+On final checks the scores are greatly improved for both desktop and mobile options. 
+
+Mobile:
+![Lighthouse improved results](/documentation/lighthouse%20after.png)
+
+Desktop:
+
+
+### 6.5 Validation
