@@ -121,6 +121,7 @@ On final checks the scores are greatly improved for both desktop and mobile opti
 The initial check highlighted a few issues with the code. These issues have now been addressed.
 ![error in html validator](/documentation/html%20checker.jpg)
 On final check, only one warning message remained:
+[See here](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchandni-l5.github.io%2Fpawsome-strolls%2F)
 
 
 [enquiry.html](https://chandni-l5.github.io/pawsome-strolls/enquiry.html)
