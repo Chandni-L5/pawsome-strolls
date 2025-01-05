@@ -245,7 +245,7 @@ Main>section>div>div>div>i {
 }
 
 p#puppyprice strong {
-   position: relative; 
+   position: relative;
    top: 8px;
 }
 
@@ -428,7 +428,7 @@ footer>div>div>div>div>h2 {
    }
 
    /* Carousel */
-   .carousel-control-next, 
+   .carousel-control-next,
    .carousel-control-prev {
       bottom: -90px;
       width: 10%;
@@ -447,17 +447,17 @@ footer>div>div>div>div>h2 {
 /*Media query: tablets (768) */
 @media screen and (min-width:768px) {
 
-/*  Global  */
-section {
-   margin-top: 30px;
-}
+   /*  Global  */
+   section {
+      margin-top: 30px;
+   }
 
    /* Carousel */
-main {
-   margin-top: 30px;
-}
+   main {
+      margin-top: 30px;
+   }
 
-.carousel-control-next, 
+   .carousel-control-next,
    .carousel-control-prev {
       bottom: -90px;
       width: 10%;
@@ -489,7 +489,7 @@ main {
       margin: 90px auto 0;
    }
 
-   .carousel-control-next, 
+   .carousel-control-next,
    .carousel-control-prev {
       bottom: -90px;
       width: 45%;
@@ -528,14 +528,16 @@ main {
       padding-top: 75px;
       margin-top: -75px;
    }
-p#puppyprice {
-position: relative;
-top: 23px;
-}
 
+   p#puppyprice,
    p#dogprice {
       position: relative;
-      top: 23px;
+      top: 15px;
+   }
+
+   p#soloprice {
+      position: relative;
+      top: -9px;
    }
 
    /* Testimonials */
