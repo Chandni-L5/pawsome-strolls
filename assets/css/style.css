@@ -78,7 +78,7 @@ section {
 
 /* Enquiry Button */
 .enq-btn {
-   margin: 25px auto 0;
+   margin: 50px auto 0;
    border: dashed var(--secondary-background-color) 6px;
    background-color: var(--quaternary-background-color);
    color: var(--secondary-font-color);
@@ -132,6 +132,32 @@ a:active {
    color: var(--quaternary-background-color);
 }
 
+/* Intro */
+#intro {
+   margin-top: 75px;
+}
+
+div#intro.container.text-center {
+   border: dashed var(--primary-background-color) 6px;
+   border-radius: 30px;
+   background-color: var(--quaternary-background-color);
+   color: var(--secondary-font-color); 
+   margin-inline: auto;
+   padding-block: 12px;
+}
+
+div#intro.container.text-center > i {
+   font-size: xx-large;
+}
+
+div#intro.container.text-center h1 {
+   color: var(--primary-background-color)
+}
+
+div#intro.container.text-center p {
+   font-family: var(--secondary-font);
+}
+
 /* Carousel */
 main {
    margin-block: 20px;
@@ -147,7 +173,7 @@ main {
    -webkit-box-align: center;
    -ms-flex-align: center;
    align-items: center;
-   margin: 70px auto 0;
+   margin: 30px auto 0;
 }
 
 /* About Me Section */
@@ -483,10 +509,16 @@ footer>div>div>div>div>h2 {
       margin-top: 40px;
    }
 
+   /* Intro */
+
+   #intro {
+      width: 30%;
+   }
+
    /*Carousel*/
    .carousel-image-size {
       width: 60%;
-      margin: 90px auto 0;
+      margin: 65px auto 0;
    }
 
    .carousel-control-next,
@@ -511,7 +543,7 @@ footer>div>div>div>div>h2 {
 
    #about-image-size {
       width: 17rem;
-      border-radius: 30px;
+      border-radius: 120px;
       -o-object-fit: contain;
       object-fit: contain;
       margin: 0 auto 10px;
