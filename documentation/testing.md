@@ -6,7 +6,7 @@
  Result: The site is responsive on a number of browsers and devices. 
 
 ##### Goal: Proof of credentials to determine if the provider is qualified for the role.
-Result: This goal has not been achieved within the content of the 'About Me' section. On future implementations I would include a separate section or some imagery to account for the qualifications of the service provider.
+Result: This goal has not been achieved however within the content of the 'About Me' section. On future implementations I would include a separate section or some imagery to account for the qualifications of the service provider.
 
 ##### Goal: An easy-to-use format for submitting enquiries or accessing contact information. 
 Result: Simple and straightforward form provided on a separate page and once submitted successfully the user is directed to a page that displays a thank you message confirming the form is submitted.
@@ -24,7 +24,7 @@ Result: The links to social media are located in the footer of the page and once
 
 #### Returning Client Goals
 ##### Goal: As a returning customer, I want access to discounts or special offers.
-Result: discounts and offers can be found in the services section. In future implementations I would consider creating a separate link to the discounts and offers from the navigation menu or alternatively have the services section displayed on a separate page and to have the discounts and offers card displayed more prominently.
+Result: Discounts and offers can be found in the services section. In future implementations I would consider creating a separate link to the discounts and offers from the navigation menu or alternatively have the services section displayed on a separate page and to have the discounts and offers card displayed more prominently.
 
 ##### Goal: I want to be able to easily navigate across the site to find relevant sections of information.
 Result: The website has a fully functioning navigation bar that is visible at all times whilst browsing the page. When a menu item is selected, the page automatically scrolls to the relevant section or to the relevant page. 
@@ -120,9 +120,8 @@ On final checks the scores are greatly improved for both desktop and mobile opti
 [index.html](https://chandni-l5.github.io/pawsome-strolls/index.html) 
 The initial check highlighted a few issues with the code. These issues have now been addressed.
 ![error in html validator](/documentation/html%20checker.jpg)
-On final check, only one issue remained: 
-![final error in html validator](/documentation/html%20index%20validator.png)
-As the project requirements do not require an actual video at this stage the `src` in this line is left blank.
+On final check, only one warning message remained:
+
 
 [enquiry.html](https://chandni-l5.github.io/pawsome-strolls/enquiry.html)
 The HTML code of the enquiry page passed successfully. 

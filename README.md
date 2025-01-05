@@ -6,7 +6,7 @@ The Pawsome Strolls site is designed as a responsive website allowing users to a
 
 [View the site from here.](https://chandni-l5.github.io/pawsome-strolls/)
 
-![Responsive Mockup](documentation/responsive%20shot.jpg)
+![Responsive Mockup](/documentation/responsive%20shot.png)
 
 ## Table of Contents  
 1. [User Experience](#user-experience)
@@ -21,6 +21,8 @@ The Pawsome Strolls site is designed as a responsive website allowing users to a
 The website is created on behalf of the service provider. Jenny's aim is to secure enquiries in order to arrange bookings with interested parties. 
 
 The site provides information about Jenny, the services she provides and testimonials from previous clients. There is also a function to complete an enquiry form in order for the service provider to reach out to the enquirer. 
+
+The target audience for this site are local dog owners who could be working full time or seeking services if they are unable to walk their dogs on a regular basis.
 
 ### 1.1 User Stories
 #### Client Goals 
@@ -123,9 +125,9 @@ The Services section implements a card layout using Bootstrap. Each card contain
 
 Each card outlines the set-up of the sessions, the timing of the session and some information about what to expect. It also includes a price point in bold text and outlined to separate from the main body of text. 
 
-The final two cards bullet point a number of locations where the service is available and also displays the offers and discounts.
+The final three cards bullet point a number of locations where the service is available, the benefits of a walk for a dog and also displays the offers and discounts.
 
-The locations card also contains a placeholder for a video where it can be controlled by pausing and playing and the audio from the video is muted when the page is loaded and must be un-muted manually.
+The benefits card also contains an AI video showcasing some fun clips of dogs being walked and playing and also includes a voiceover of the benefits of a walk for a dog. This is also summarised in the text content below the video.
 
 The whole section is responsive and the cards will shift depending on the screen size for ease of viewing.
 
@@ -165,9 +167,9 @@ Another feature I would consider adding would be a 'back to top' function on the
 
 During the designing and styling process of the website, I have kept in mind to aim to make the page as user friendly and accessible as possible. I have achieved this by: 
 - Semantic HTML 
--Use of descriptive alt attributes on the images and videos used throughout the site. 
+-Use of descriptive alt attributes on the images used throughout the site. 
 -I have checked the colour scheme used on the page using [WebAIM](https://webaim.org/resources/contrastchecker/) to check the colour contrast. 
-![screenshot of colour contrast check](/documentation/color%20contrast.png)
+![screenshot of colour contrast check](/documentation/contrast%20checker.png)
 -I have also used the chrome extension [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to also consider the visuals of the page and contrast between the content for users with visual impairments.
 - Added aria-labels to allow screen readers to understand the current pages.
 - Use of a Sans Serif font alternative.
