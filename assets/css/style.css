@@ -141,12 +141,12 @@ div#intro.container.text-center {
    border: dashed var(--primary-background-color) 6px;
    border-radius: 30px;
    background-color: var(--quaternary-background-color);
-   color: var(--secondary-font-color); 
+   color: var(--secondary-font-color);
    margin-inline: auto;
    padding-block: 12px;
 }
 
-div#intro.container.text-center > i {
+div#intro.container.text-center>i {
    font-size: xx-large;
 }
 
