@@ -43,21 +43,21 @@ The Pawsome Strolls site is designed as a responsive website allowing users to a
     4.2 [Frameworks, Libraries & Programs Used](#42-frameworks-libraries--programs-used)
 
 5. [Deployment & Local Development](#deployment-&-local-development)
-6. [Testing](/documentation/testing.md)
+6. [Testing](/testing.md)
 
-    6.1 [Testing User Stories](/documentation/testing.md#61-testing-user-stories) 
+    6.1 [Testing User Stories](/testing.md#61-testing-user-stories) 
 
-    6.2 [Fixing Bugs](/documentation/testing.md#62-fixing-bugs)
+    6.2 [Fixing Bugs](/testing.md#62-fixing-bugs)
 
-    6.3 [Manual Testing](/documentation/testing.md#63-manual-testing)
+    6.3 [Manual Testing](/testing.md#63-manual-testing)
 
-    6.4 [Lighthouse](/documentation/testing.md#64-lighthouse)
+    6.4 [Lighthouse](/testing.md#64-lighthouse)
 
-    6.5 [Validation](/documentation/testing.md#65-validation)
+    6.5 [Validation](/testing.md#65-validation)
 
-    6.5.1 [W3C HTML and CSS](/documentation/testing.md#651-w3c-html-and-css)
+    6.5.1 [W3C HTML and CSS](/testing.md#651-w3c-html-and-css)
  
-    6.5.2 [Autoprefixer CSS](/documentation/testing.md#652-autoprefixer-css)
+    6.5.2 [Autoprefixer CSS](/testing.md#652-autoprefixer-css)
 7. [Credits](#credits)
 
     7.1 [Code Used](#71-code-used)
@@ -273,7 +273,7 @@ The website is deployed using GitHub Pages. To Deploy the site using GitHub Page
 6. When returning to the code page in the repository a Deployments section will appear in the right side column - this process may take a few minutes before the site goes live. The deployed sight can be accessed via this link.
 
 ## 6. Testing
-Please refer to [testing.md](/documentation/testing.md) file for all the testing carried out.
+Please refer to [testing.md](/testing.md) file for all the testing carried out.
 
 ## 7. Credits
 ### 7.1 Code Used
