@@ -45,7 +45,19 @@ The Pawsome Strolls site is designed as a responsive website allowing users to a
 5. [Deployment & Local Development](#deployment-&-local-development)
 6. [Testing](/documentation/testing.md)
 
-    6.1 [Testing User Stories](#testing.md/6.1)
+    6.1 [Testing User Stories](/documentation/testing.md#61-testing-user-stories) 
+
+    6.2 [Fixing Bugs](/documentation/testing.md#62-fixing-bugs)
+
+    6.3 [Manual Testing](/documentation/testing.md#63-manual-testing)
+
+    6.4 [Lighthouse](/documentation/testing.md#64-lighthouse)
+
+    6.5 [Validation](/documentation/testing.md#65-validation)
+
+    6.5.1 [W3C HTML and CSS](/documentation/testing.md#651-w3c-html-and-css)
+ 
+    6.5.2 [Autoprefixer CSS](/documentation/testing.md#652-autoprefixer-css)
 7. [Credits](#credits)
 
     7.1 [Code Used](#71-code-used)

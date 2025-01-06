@@ -55,7 +55,7 @@ After discussing with my mentor Mortiz Wach I resized the images to an equal siz
 
 - By fixing the navbar this created another issue. The navbar now overlapped the carousel at the top of the homepage and when automatically scrolling to the nav-links the navbar would overlap the header of the sections of the homepage. 
 
-I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occuring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other colleagues on slack. Working together with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
+I discussed this issue with my mentor who suggest to look into the the `scroll-padding-top` property. However when trying to implement this I found that the issue was still occurring. Whilst searching on stack overflow and google for a possible solution, I also decided to reach out to other colleagues on slack. Working together with an alumni student Vernell Clarke, who assisted me to identify where to apply a fix. By applying an `id` to an invisible `div` above the headers, and applying the property of `padding-top` and `margin-top`, and using dev chrome tools I was able to adjust the headers into the right place so that when the navlink was selected the page would scroll automatically to the top of the header.  
 
 - When manually checking the navlinks from the enquiry page and success page, I identified that when selecting the link from a mobile viewport the link would not land at the correct place above the header. I checked all of the code and compared this using [diffchecker](https://www.diffchecker.com/) however could not identify any reason why this was not working. 
 
@@ -127,18 +127,19 @@ On final checks the scores are greatly improved for both desktop and mobile opti
 [W3C](https://validator.w3.org/) validator has been used to check the HTML on each of the pages of the website and the css stylesheet.
 
 ##### HTML
-[index.html](https://chandni-l5.github.io/pawsome-strolls/index.html) 
+- [index.html](https://chandni-l5.github.io/pawsome-strolls/index.html) 
 The initial check highlighted a few issues with the code. These issues have now been addressed.
 ![error in html validator](/documentation/html%20checker.jpg)
+
 On final check, only one warning message remained:
 [See here](https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fchandni-l5.github.io%2Fpawsome-strolls%2F)
 
 
-[enquiry.html](https://chandni-l5.github.io/pawsome-strolls/enquiry.html)
+- [enquiry.html](https://chandni-l5.github.io/pawsome-strolls/enquiry.html)
 The HTML code of the enquiry page passed successfully. 
 ![html validation for enquiry page](/documentation/html%20validator%20success.png)
 
-[success.html](https://chandni-l5.github.io/pawsome-strolls/success.html)
+- [success.html](https://chandni-l5.github.io/pawsome-strolls/success.html)
 The HTML code of the success page passed successfully.
 ![html validation for success page](/documentation/html%20validator%20success.png)
 

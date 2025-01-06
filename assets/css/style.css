@@ -284,10 +284,14 @@ video {
    -ms-flex-pack: center;
    justify-content: center;
    padding-top: 15px;
-   padding-bottom: 15px;
    margin-inline: auto;
    width: 100%;
    height: 185px;
+}
+
+h4#benefit-card {
+   padding-top: 0;
+   padding-bottom: 8px;
 }
 
 /* Testimonials*/
@@ -571,6 +575,10 @@ footer>div>div>div>div>h2 {
       position: relative;
       top: -9px;
    }
+
+#benefit-card-body {
+   padding-top: 1px;
+}
 
    /* Testimonials */
    #testimonials {
