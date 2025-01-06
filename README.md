@@ -10,12 +10,51 @@ The Pawsome Strolls site is designed as a responsive website allowing users to a
 
 ## Table of Contents  
 1. [User Experience](#user-experience)
+   
+    1.1 [User Stories](#11-user-stories)
 2. [Design](#design)
+
+    2.1 [Colour Scheme](#21-colour-scheme)
+
+    2.2 [Typography](#22-typography)
+
+    2.3 [Imagery](#23-imagery)
+
+    2.4 [Wireframes](#24-wireframes)
 3. [Features](#features)
+
+    3.1 [General Features](#31-general-features)  
+
+    3.1.1 [All Pages](#311-all-pages)
+
+    3.1.2 [Index Page](#312-index-page)
+
+    3.1.3 [Enquiry Form Page](#313-enquiry-form-page)
+
+    3.1.4 [Success Page](#314-success-page)
+
+    3.2 [Future Implementations](#32-future-implementations)
+
+    3.3 [Accessibility](#33-accessibility)
 4. [Technologies Used](#technologies-used)
+
+    4.1 [Languages used](#41-languages-used)
+
+    4.2 [Frameworks, Libraries & Programs Used](#42-frameworks-libraries--programs-used)
+
 5. [Deployment & Local Development](#deployment-&-local-development)
-6. [Testing](#testing)
+6. [Testing](/documentation/testing.md)
 7. [Credits](#credits)
+
+    7.1 [Code Used](#71-code-used)
+
+    7.2 [Content](#72-content)
+
+    7.3 [Media](#73-media)
+
+    7.4 [Documentation and Testing](#74-documentation-and-testing)
+
+    7.5 [Acknowledgements](#75-acknowledgments)
 
 ## 1. User Experience
 The website is created on behalf of the service provider. Jenny's aim is to secure enquiries in order to arrange bookings with interested parties. 
