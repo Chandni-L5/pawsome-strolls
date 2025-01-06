@@ -44,12 +44,12 @@ The target audience for this site are local dog owners who could be working full
 I have utilised the Projects function on my repository to keep track of the user stories that apply to this site. The user stories are recorded along with the acceptance criteria and tasks required to meet this goal. The stories are organised into sections of progress and allow me to keep track of where I am at throughout the development process. 
 ![Project card from github](/documentation/project%20goals%201.png)
 
-In addition each goal has been catagorized in terms of priority - must haves, should haves and could haves. This allows me to target those highest in priority to ensure I can meet the necessary functions of the site. 
+In addition each goal has been catagorised in terms of priority - must haves, should haves and could haves. This allows me to target those highest in priority to ensure I can meet the necessary functions of the site. 
 ![Project board from github](/documentation/project%20goals%202.png)
 
 ## 2. Design
 ### 2.1 Colour Scheme
-I used [mycolor.space](https://mycolor.space/) to create a colour palette to apply to the site. I applied the hex color code #5e8697 as the initial colour for the background of the page and added this to mycolor.space to generate a colour pallette. 
+I used [mycolor.space](https://mycolor.space/) to create a colour palette to apply to the site. I applied the hex color code #5e8697 as the initial colour for the background of the page and added this to mycolor.space to generate a colour palette. 
 
 ![blocks of colours with hex color codes and color names](/documentation/color-pallette.png)
 
@@ -65,7 +65,9 @@ Lato - Which is used for larger sections of text.
 [Font Awesome](https://fontawesome.com/) is used for the use of icons in various parts of the site such as the nav bar and footer.
 
 ### 2.3 Imagery
-All of the images used throughout the site were sourced from [pexels.com](https://www.pexels.com/). Images from this source are licensed for free use. I also used [befunky.com](https://www.befunky.com/dashboard/) to resize the images.
+All of the images used throughout the site were sourced from [pexels.com](https://www.pexels.com/). Images from this source are licensed for free use. I also used [befunky.com](https://www.befunky.com/dashboard/) to resize the images. 
+
+The video used in the services section to highlight the benefits of a walk was created using [invideo AI](https://invideo.io/). I created a customed script and my fellow student Ivan Kimpl created this custom video using his account with invideo AI.
 
 ### 2.4 Wireframes
 I used Balsamiq to create wireframes to help me visualise the layout of the site. Wireframes for mobile, tablet and desktop were created. I kept the user stories and goals in mind when designing the layout. 
@@ -106,12 +108,17 @@ The footer is positioned at the base of the page and becomes visible once all of
 #### 3.1.2 Index Page
 The index page contains the main content of the website and is split into sections. Some of the sections also contain an enquiry button that links the user directly to the enquiry form. The button is mirrored in style to the button in the navigation bar and also has an interactive function to make it standout from the rest of the content.
 
+#### Introductory Title and Message
+The first part of the page consists of `div` cotaining the title of the page and an small introductory sentence to introduce the main purpose of the website. The placement of this section allows the user to immediately understand the purpose thus fufil the primary goal.
+
+![Screenshot of intro message and carousel](/documentation/intro-title.png)
+
 ##### Image Carousel 
-The main content of the website is provided on the homepage. The initial section of the page consists of a carousel of images of the service provider Jenny, in various locations walking individual and groups of dogs.
+The main content of the website is provided on the homepage. The initial section of the page also consists of a carousel of images of the service provider Jenny, in various locations walking individual and groups of dogs.
 
  The carousel is set to autoplay and rotates images every few seconds, there are also some navigation arrows to rotate the images at will. The carousel is responsive and reduces in size as the size of the viewport reduces.
 
-[![Image from Gyazo](https://i.gyazo.com/17bbe66d9a44c43a57bf9a8c22505428.gif)](https://gyazo.com/17bbe66d9a44c43a57bf9a8c22505428)
+![Image from Gyazo](/documentation/carousel-gif.gif)
 
 ##### About Me 
 The About Me section consists of a grid layout containing a section of text, and image and a smaller grid containing some information cards. This area is responsive and the display changes as the screen size gets smaller to ensure the content is easily viewable without overcrowding the screen. 
@@ -131,7 +138,7 @@ The benefits card also contains an AI video showcasing some fun clips of dogs be
 
 The whole section is responsive and the cards will shift depending on the screen size for ease of viewing.
 
-![Services section](/documentation/services.png)
+![Services section](/documentation/services-responsive.png)
 
 The Services section is concluded again with an 'Enquire now' button in the same format.
 
@@ -170,7 +177,8 @@ During the designing and styling process of the website, I have kept in mind to 
 -Use of descriptive alt attributes on the images used throughout the site. 
 -I have checked the colour scheme used on the page using [WebAIM](https://webaim.org/resources/contrastchecker/) to check the colour contrast. 
 ![screenshot of colour contrast check](/documentation/contrast%20checker.png)
--I have also used the chrome extension [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to also consider the visuals of the page and contrast between the content for users with visual impairments.
+
+- I have also used the chrome extension [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) to also consider the visuals of the page and contrast between the content for users with visual impairments.
 - Added aria-labels to allow screen readers to understand the current pages.
 - Use of a Sans Serif font alternative.
 -Use of the hover function on all buttons across the site and use of a uniform style to make it clear that this is a button.
@@ -194,8 +202,10 @@ During the designing and styling process of the website, I have kept in mind to 
 - [Befunky](https://www.befunky.com/dashboard/) - to resize and alter the images
 - [Tinypng](https://tinypng.com/) - To compress images
 - [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - to convert images to different file types. 
+- [freeconvert](https://www.freeconvert.com/) - to convert video to webm
 - [Favicon.io](https://favicon.io/emoji-favicons/) - to create an emoji favicon
 - [Amiresponsive](https://ui.dev/amiresponsive) - to show the website on a range of device screens
+- [Invideo AI](https://invideo.io/) - to create a custom AI video
 
 ## 5. Deployment  
 
@@ -215,6 +225,10 @@ Please refer to [testing.md](/documentation/testing.md) file for all the testing
 ## 7. Credits
 ### 7.1 Code Used
 - [Bootstrap](https://getbootstrap.com/) - as referenced in this readme, Bootstrap has been used to implement a number of elements in the page. 
+    - navigation bar
+    - grid layout
+    - cards 
+    - carousel 
 
 ### 7.2 Content
 - [Chatgpt](https://chatgpt.com/) - has been utilised to create some of the text throughout the website. 
@@ -229,6 +243,7 @@ Please refer to [testing.md](/documentation/testing.md) file for all the testing
 - [pexels.com](https://www.pexels.com/) - referred to in 2.3
 - [Tinypng](https://tinypng.com/) - referred to in 4.2
 - [Cloudconvert](https://cloudconvert.com/jpg-to-webp) - to convert images to different file types. 
+- [Invideo AI](https://invideo.io/) - to create a custom AI video
 
 ### 7.4 Documentation and testing
 I have used the following sources to help guide and structure the documentation of this project.
@@ -238,7 +253,7 @@ I have used the following sources to help guide and structure the documentation 
 - [Diffchecker](https://www.diffchecker.com/)
 - [W3C](https://validator.w3.org/)
 -[Autoprefixer](https://autoprefixer.github.io/)
-- Gyazo plugin- to create gifs to use in the testing documentation
+- [Gyazo](https://gyazo.com/en) plugin- to create gifs to use in the testing documentation
 - [WebAIM](https://webaim.org/resources/contrastchecker/) - referred to in 3.3
 - [Web Disability Simulator](https://chromewebstore.google.com/detail/web-disability-simulator/olioanlbgbpmdlgjnnampnnlohigkjla) - referred to in 3.3
 - [Amiresponsive](https://ui.dev/amiresponsive) - to show the website on a range of device screens
@@ -250,7 +265,7 @@ I would like to acknowledge the following people who have helped me along the wa
 - Vernell Clarke - Alumni student at code institute who contributed valuable time to help teach me how to use various dev tools and troubleshoot a number of issues on the site. Vernell also took time to test out the site on various browsers.
 - Moritz Wach - my Code Institute Mentor who made himself available during the busy Christmas period to help advise me on my progress.
 - Oisin at tutor support who assisted me with some troubleshooting. 
-- Ivan Kimpl - who took time to help me with quick questions when I was unsure of how to target a specific class. 
+- Ivan Kimpl - who took time to help me with quick questions when I was unsure of how to target a specific class and who also took time to create a custom AI video for my project with a script I provided.
 - Lizzy_4p and Naveed_5p - who took time to respond to my peer code review request on slack.
 - Tom, Prashant and Suraj - family and friends who helped to test out the site on various devices.
 - Benji - My dog who inspired me and kept me company throughout this project.
